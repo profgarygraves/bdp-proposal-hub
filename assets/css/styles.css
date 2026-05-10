@@ -567,6 +567,48 @@ h3 {
   margin-top: 0.45rem;
 }
 
+.plain-list a,
+.data-table a {
+  font-weight: 800;
+}
+
+.course-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.course-detail-grid details {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(15, 64, 107, 0.06);
+  padding: 1rem;
+}
+
+.course-detail-grid summary {
+  cursor: pointer;
+  color: var(--elderberry);
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.course-detail-grid summary span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-right: 0.45rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius);
+  background: var(--lemon-zest);
+  color: var(--elderberry);
+  font-size: 0.82rem;
+}
+
+.course-detail-grid details p {
+  color: var(--muted);
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -913,7 +955,8 @@ select {
   .hero,
   .proposal-section,
   .content-grid,
-  .two-column {
+  .two-column,
+  .course-detail-grid {
     grid-template-columns: 1fr;
   }
 
