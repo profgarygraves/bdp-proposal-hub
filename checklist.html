@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive BDP planning checklist for the proposed Applied Human-AI Collaboration and Leadership BS.">
+    <title>BDP Planning Checklist | Applied Human-AI BS</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">AI</span><span><strong>Applied Human-AI BS</strong><small>Fullerton College BDP Hub</small></span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu"><span class="sr-only">Toggle menu</span><span aria-hidden="true"></span></button>
+        <ul class="nav-menu" id="primary-menu">
+          <li><a href="checklist.html">Checklist</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="lmi.html">LMI</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="student-interest.html">Student Interest</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="qa.html">Q&A</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="page-shell">
+      <section class="page-hero">
+        <p class="eyebrow">BDP Progress Tracker</p>
+        <h1>Planning Checklist</h1>
+        <p>Track required proposal components and keep status visible for internal collaborators. Status selections are saved in this browser using localStorage.</p>
+      </section>
+
+      <section class="dashboard-summary" aria-label="Checklist status summary">
+        <div><strong data-status-count="completed">0</strong><span>Completed</span></div>
+        <div><strong data-status-count="in-progress">0</strong><span>In Progress</span></div>
+        <div><strong data-status-count="pending">0</strong><span>Pending</span></div>
+        <div><strong data-status-count="needs-info">0</strong><span>Needs Info</span></div>
+      </section>
+
+      <section class="checklist-toolbar" aria-label="Checklist tools">
+        <p id="checklist-save-state">Ready to track planning progress.</p>
+        <button class="button secondary small" type="button" data-reset-checklist>Reset Statuses</button>
+      </section>
+
+      <section class="checklist" data-checklist aria-label="BDP checklist items">
+        <article class="check-item" data-item-id="labor-market-report" data-default-status="completed">
+          <div>
+            <h2>Labor Market Assessment (COE)</h2>
+            <p>Requested in February 2026 and received. Archive the required COE BDP Labor Market Assessment in its original form, including the signed COE director certification letter.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="top-cip-soc" data-default-status="completed">
+          <div>
+            <h2>TOP-CIP-SOC Alignment</h2>
+            <p>COE report identifies TOP 0501.00, CIP 52.0201, and target SOCs 11-1021, 13-1082, and 13-1111 for regional and state review.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="employer-advisory-board">
+          <div>
+            <h2>Employer Advisory Board or Survey</h2>
+            <p>Document employer consultation on workforce needs, skill gaps, bachelor’s degree value, hiring demand, qualifications, wages, and hard-to-fill roles.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="workforce-board">
+          <div>
+            <h2>Workforce Board Consultation</h2>
+            <p>Engage local and regional workforce development partners for consultation and documentation.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="regional-consortium">
+          <div>
+            <h2>Regional Consortium Submission</h2>
+            <p>Prepare documentation for RegionalCTE submission, review, and consortium recommendation.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="curriculum-development" data-default-status="in-progress">
+          <div>
+            <h2>Program Description Form</h2>
+            <p>Finalize the proposed BDP description with lower-division and upper-division courses for CSU, UC, and AICCU intersegmental review.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="non-duplication">
+          <div>
+            <h2>Non-Duplication Analysis</h2>
+            <p>Document differentiation from CSU and UC programs, especially by positioning this as applied AI for business leadership rather than AI engineering or model-development curriculum.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="administrative-plan">
+          <div>
+            <h2>Administrative and Funding Plan</h2>
+            <p>Document faculty qualifications, student support services, physical and technology resources, equipment, budget, and capacity to launch and sustain the program.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="workforce-need-summary" data-default-status="in-progress">
+          <div>
+            <h2>Summary of Workforce Need and Demand</h2>
+            <p>Complete the 10-page Question 8 narrative covering supply-demand gap, bachelor’s wage evidence, employer preference, regional consultation, completer data, student interest, and regulatory changes if applicable.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="student-interest-evidence">
+          <div>
+            <h2>Student Interest Evidence</h2>
+            <p>Collect survey evidence showing number surveyed, response rate, percentage interest levels, enrollment projections, and projected completers.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="program-quality-design">
+          <div>
+            <h2>Program Quality and Curriculum Design</h2>
+            <p>Complete the 12-page form covering upper-division curriculum development, approval process, catalog description, articulation, and industry alignment.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="accjc-substantive-change">
+          <div>
+            <h2>ACCJC Substantive Change</h2>
+            <p>Apply for or receive ACCJC substantive change approval. CCCCO approval remains provisional until evidence of ACCJC approval is received.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="district-reserve-policy">
+          <div>
+            <h2>District Reserve Policy</h2>
+            <p>Attach the district’s formal unrestricted reserves policy, consistent with the Chancellor’s Office recommendation to consider at least two months of total general fund operating expenditures.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="campus-certification">
+          <div>
+            <h2>College Certification Signatures</h2>
+            <p>Prepare president, vice president of instruction, and academic senate president certification information for electronic submission signatures.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="chancellors-office">
+          <div>
+            <h2>Chancellor's Office Submission</h2>
+            <p>Finalize PDF attachments, avoid embedded links to external documents, and submit the Cycle 9 application by Monday, August 17, 2026 at 5:00 PM.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <div class="checklist-divider">
+          <p class="eyebrow">Inputs Needed</p>
+          <h2>Materials to gather for refinement and submission.</h2>
+        </div>
+        <article class="check-item" data-item-id="partner-support-form" data-default-status="needs-info">
+          <div>
+            <h2>Partner / Support Form Embed</h2>
+            <p>Create a Google Form for employer, advisory board, partner, and supporter interest so responses can be recorded in a Google Sheet and email notifications can be enabled.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="employer-evidence" data-default-status="needs-info">
+          <div>
+            <h2>Employer / Advisory Evidence</h2>
+            <p>Collect names, organizations, roles, meeting notes, feedback, letters of support, advisory input, or employer survey results.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="workforce-board-docs" data-default-status="needs-info">
+          <div>
+            <h2>Workforce Board Documentation</h2>
+            <p>Gather emails, meeting notes, contacts, statements of support, or planned outreach documentation from workforce development board consultation.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="regional-consortium-docs" data-default-status="needs-info">
+          <div>
+            <h2>Regional Consortium Documentation</h2>
+            <p>Provide RegionalCTE submission status, screenshots, meeting dates, recommendation notes, vote records, or official consortium documentation.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="student-interest-results" data-default-status="needs-info">
+          <div>
+            <h2>Student Interest Results</h2>
+            <p>Provide number surveyed, completed responses, response rate, interest percentages, likely enrollment, career goals, and projected completers.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="non-duplication-research" data-default-status="needs-info">
+          <div>
+            <h2>Non-Duplication Research</h2>
+            <p>Share CSU and UC comparisons for AI, business analytics, management, MIS, organizational leadership, computer science, and related programs.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="program-quality-form" data-default-status="needs-info">
+          <div>
+            <h2>Program Quality & Curriculum Design Form</h2>
+            <p>Provide draft content for catalog description, curriculum approval status, upper-division rationale, articulation, and industry alignment.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="admin-funding-details" data-default-status="needs-info">
+          <div>
+            <h2>Administrative & Funding Plan Details</h2>
+            <p>Gather faculty needs, library and learning resources, tutoring, advising, technology, equipment, budget, enrollment plan, and sustainability plan details.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="accjc-status-materials" data-default-status="needs-info">
+          <div>
+            <h2>ACCJC Status Materials</h2>
+            <p>Provide substantive change status, planned timeline, application materials, or approval/submission documentation.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="reserve-policy-materials" data-default-status="needs-info">
+          <div>
+            <h2>District Reserve Policy</h2>
+            <p>Provide the formal unrestricted reserves policy required by the application.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="completion-projection-data" data-default-status="needs-info">
+          <div>
+            <h2>Completion and Projection Data</h2>
+            <p>Provide AI in Business AS completer data, enrollment trends, projected bachelor’s cohort size, projected annual completers, and assumptions.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="official-partner-list" data-default-status="needs-info">
+          <div>
+            <h2>Official Partner List</h2>
+            <p>Provide employers, workforce groups, advisory members, regional organizations, and supporters approved for public listing.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+        <article class="check-item" data-item-id="official-branding" data-default-status="needs-info">
+          <div>
+            <h2>Official Branding and Public Language</h2>
+            <p>Provide Fullerton College or NOCCCD brand guidance, logos, public-facing disclaimers, division descriptions, and approval language.</p>
+          </div>
+          <label>Status<select><option value="pending">Pending</option><option value="in-progress">In Progress</option><option value="completed">Completed</option><option value="needs-info">Needs Info</option></select></label>
+        </article>
+      </section>
+
+      <section class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Cycle 9 Application Map</p>
+          <h2>Core CCCCO application questions and attachments for the August 17, 2026 state deadline.</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Question</th>
+                <th scope="col">Requirement</th>
+                <th scope="col">Page Limit / Format</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>5</td><td>ACCJC substantive change status and approval letter if received.</td><td>Upload letter if approved</td></tr>
+              <tr><td>7</td><td>Non-Duplication Analysis showing the program does not duplicate CSU or UC offerings.</td><td>PDF, no page limit</td></tr>
+              <tr><td>8</td><td>Summary of Workforce Need and Demand.</td><td>PDF, 10 pages</td></tr>
+              <tr><td>9</td><td>COE BDP Labor Market Assessment Report in original form.</td><td>PDF attachment</td></tr>
+              <tr><td>10</td><td>Evidence of regional employer, workforce board, and regional consortium consultation.</td><td>Word or PDF narrative plus evidence</td></tr>
+              <tr><td>11</td><td>Optional partner letters, employer letters, meeting minutes, and supporting evidence.</td><td>PDF attachments</td></tr>
+              <tr><td>12</td><td>Proposed BDP Description Form for intersegmental review.</td><td>PDF, no page limit</td></tr>
+              <tr><td>13</td><td>Program Quality and Curriculum Design form.</td><td>PDF, 12 pages</td></tr>
+              <tr><td>14</td><td>Administrative and Funding Plan.</td><td>PDF, 12 pages</td></tr>
+              <tr><td>15</td><td>District formal unrestricted reserves policy.</td><td>Attach policy</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>Applied Human-AI Collaboration & Leadership BS planning hub.</p><p>Fullerton College | Proposed BDP</p></footer>
+  </body>
+</html>
