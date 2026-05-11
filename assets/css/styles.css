@@ -524,6 +524,14 @@ h3 {
   align-content: start;
 }
 
+.letter-copy {
+  max-width: 900px;
+}
+
+.letter-copy p {
+  color: #344454;
+}
+
 .form-row {
   display: grid;
   gap: 0.35rem;
