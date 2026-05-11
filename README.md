@@ -18,6 +18,16 @@ Static planning and development website for the proposed Fullerton College Appli
 
 Replace the placeholder blocks on `student-interest.html` and `contact.html` with Google Form iframe embed code when the live forms are ready.
 
+## FormSubmit Notes
+
+The Q&A page currently uses the hosted FormSubmit email-link form:
+
+`https://formsubmit.co/el/kiwoxo`
+
+This is different from FormSubmit's custom HTML form endpoint. The `/el/...` link opens FormSubmit's hosted form, while a custom embedded form would need either the direct email endpoint or the random "invisible email" POST endpoint from FormSubmit.
+
+FormSubmit's API is for retrieving archived submissions after requesting an API key. The API key should stay private and should not be committed to this public GitHub Pages repository. If submission exports are needed later, request the API key from FormSubmit and use it locally or in a private workflow, not in frontend HTML or JavaScript.
+
 ## Deployment
 
 This is a static site and can be deployed directly with GitHub Pages. Use `index.html` as the entry point.
