@@ -520,6 +520,10 @@ h3 {
   gap: 1rem;
 }
 
+.question-link-box {
+  align-content: start;
+}
+
 .form-row {
   display: grid;
   gap: 0.35rem;

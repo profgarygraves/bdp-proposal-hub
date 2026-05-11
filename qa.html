@@ -22,32 +22,13 @@
         <div>
           <p class="eyebrow">Ask A Question</p>
           <h2 id="ask-question-title">Have a question about the proposed degree?</h2>
-          <p>Use this form to send a question to Professor Gary Graves. Submissions are sent through FormSubmit, a static-site form service. The first live test may require an email confirmation before messages begin forwarding.</p>
+          <p>Use the secure FormSubmit question link to send a message to Professor Gary Graves. The form opens in FormSubmit and returns visitors to this site after submission.</p>
         </div>
-        <form class="question-form" action="https://formsubmit.co/ggraves@fullcoll.edu" method="POST">
-          <input type="hidden" name="_subject" value="Question about Applied Human-AI BS proposal">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://profgarygraves.github.io/bdp-proposal-hub/thanks.html">
-          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
-          <div class="form-row">
-            <label for="question-name">Name</label>
-            <input id="question-name" name="name" type="text" autocomplete="name" required>
-          </div>
-          <div class="form-row">
-            <label for="question-email">Email</label>
-            <input id="question-email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="form-row">
-            <label for="question-role">Role or organization</label>
-            <input id="question-role" name="role_organization" type="text" placeholder="Student, employer, faculty, partner, etc.">
-          </div>
-          <div class="form-row">
-            <label for="question-message">Question</label>
-            <textarea id="question-message" name="question" rows="5" required></textarea>
-          </div>
-          <button class="button primary" type="submit">Email Question</button>
+        <div class="question-form question-link-box">
+          <p>FormSubmit will collect the visitor's name, email address, subject, and message, then forward the submission to the email address connected to your FormSubmit account.</p>
+          <a class="button primary" href="https://formsubmit.co/el/kiwoxo?subject=Question%20about%20Applied%20Human-AI%20BS%20proposal&amp;next=https%3A%2F%2Fprofgarygraves.github.io%2Fbdp-proposal-hub%2Fthanks.html" target="_blank" rel="noopener">Open Question Form</a>
           <p class="form-note">You can also email directly at <a href="mailto:ggraves@fullcoll.edu">ggraves@fullcoll.edu</a>.</p>
-        </form>
+        </div>
       </section>
 
       <section class="faq-list">
