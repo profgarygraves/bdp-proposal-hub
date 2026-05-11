@@ -328,6 +328,7 @@ svg {
 .content-grid,
 .two-column,
 .callout,
+.question-panel,
 .dashboard-summary,
 .checklist-toolbar,
 .checklist,
@@ -349,7 +350,8 @@ svg {
 .section-band,
 .content-grid,
 .two-column,
-.callout {
+.callout,
+.question-panel {
   margin-top: 2rem;
 }
 
@@ -465,6 +467,7 @@ h3 {
 .card,
 .panel,
 .check-item,
+.question-panel,
 .faq-list details,
 .form-embed {
   background: #fff;
@@ -500,8 +503,58 @@ h3 {
 
 .feature-copy,
 .panel,
-.callout {
+.callout,
+.question-panel {
   padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.question-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(320px, 1fr);
+  gap: clamp(1.25rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.question-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-row {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.form-row label {
+  color: var(--stinger-blue);
+  font-weight: 800;
+}
+
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  color: var(--ink);
+  font: inherit;
+  background: #fff;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+  outline: 3px solid rgba(93, 204, 212, 0.35);
+  border-color: var(--stinger-blue);
+}
+
+.form-row textarea {
+  resize: vertical;
+}
+
+.form-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .span-wide {
@@ -956,6 +1009,7 @@ select {
   .proposal-section,
   .content-grid,
   .two-column,
+  .question-panel,
   .course-detail-grid {
     grid-template-columns: 1fr;
   }
