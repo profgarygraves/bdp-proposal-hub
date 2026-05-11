@@ -102,30 +102,3 @@ if (resetButton && checklist) {
     }
   });
 }
-
-const questionForm = document.querySelector("[data-question-form]");
-
-if (questionForm) {
-  questionForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(questionForm);
-    const name = formData.get("name")?.toString().trim() || "Not provided";
-    const email = formData.get("email")?.toString().trim() || "Not provided";
-    const role = formData.get("role")?.toString().trim() || "Not provided";
-    const question = formData.get("question")?.toString().trim() || "Not provided";
-    const subject = "Question about Applied Human-AI BS proposal";
-    const body = [
-      "Question about the Applied Human-AI Collaboration and Leadership BS proposal",
-      "",
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Role or organization: ${role}`,
-      "",
-      "Question:",
-      question,
-    ].join("\n");
-
-    window.location.href = `mailto:ggraves@fullcoll.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  });
-}

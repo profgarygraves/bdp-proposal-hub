@@ -22,9 +22,13 @@
         <div>
           <p class="eyebrow">Ask A Question</p>
           <h2 id="ask-question-title">Have a question about the proposed degree?</h2>
-          <p>Use this form to send a question to Professor Gary Graves. Because this site is hosted on GitHub Pages, the form opens your email app with the message prepared.</p>
+          <p>Use this form to send a question to Professor Gary Graves. Submissions are sent through FormSubmit, a static-site form service. The first live test may require an email confirmation before messages begin forwarding.</p>
         </div>
-        <form class="question-form" data-question-form>
+        <form class="question-form" action="https://formsubmit.co/ggraves@fullcoll.edu" method="POST">
+          <input type="hidden" name="_subject" value="Question about Applied Human-AI BS proposal">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://profgarygraves.github.io/bdp-proposal-hub/thanks.html">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
           <div class="form-row">
             <label for="question-name">Name</label>
             <input id="question-name" name="name" type="text" autocomplete="name" required>
@@ -35,7 +39,7 @@
           </div>
           <div class="form-row">
             <label for="question-role">Role or organization</label>
-            <input id="question-role" name="role" type="text" placeholder="Student, employer, faculty, partner, etc.">
+            <input id="question-role" name="role_organization" type="text" placeholder="Student, employer, faculty, partner, etc.">
           </div>
           <div class="form-row">
             <label for="question-message">Question</label>

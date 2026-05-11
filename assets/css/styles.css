@@ -557,6 +557,13 @@ h3 {
   font-size: 0.92rem;
 }
 
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .span-wide {
   grid-column: 1 / -1;
 }
