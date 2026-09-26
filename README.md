@@ -8,6 +8,7 @@ Static application and review website for the proposed Fullerton College Applied
 - `checklist.html` - Interactive submitted-package and post-submission tracker with localStorage
 - `program.html` - Program description, outcomes, sequence, and capstone
 - `partners.html` - Advisory board and workforce partner information
+- `alignment.html` - CCCCO Vision 2030 goals, outcomes, strategic directions, and accountability crosswalk
 - `timeline.html` - Research, regional recommendation, state submission, review, and implementation phases
 - `lmi.html` - Labor market findings, target occupations, and the downloadable COE report
 - `student-interest.html` - Submitted student survey findings, projections, and ongoing Google Form
