@@ -20,7 +20,7 @@ document.querySelectorAll(".nav-menu a").forEach((link) => {
 const checklist = document.querySelector("[data-checklist]");
 const statusMessage = document.querySelector("#checklist-save-state");
 const resetButton = document.querySelector("[data-reset-checklist]");
-const storageKey = "applied-human-ai-bdp-checklist-v2";
+const storageKey = "applied-human-ai-bdp-checklist-v3";
 const statusClassMap = ["completed", "in-progress", "pending", "needs-info"];
 
 function readChecklistState() {

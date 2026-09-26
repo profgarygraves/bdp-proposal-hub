@@ -1,22 +1,18 @@
 # Applied Human-AI Collaboration & Leadership BS Proposal Hub
 
-Static planning and development website for the proposed Fullerton College Applied Human-AI Collaboration & Leadership Bachelor of Science.
+Static application and review website for the proposed Fullerton College Applied Human-AI Collaboration & Leadership Bachelor of Science. The Cycle 9 application was submitted to the CCCCO in August 2026 and is awaiting a state review outcome.
 
 ## Pages
 
 - `index.html` - Home and strategic overview
-- `checklist.html` - Interactive BDP requirements tracker with localStorage
+- `checklist.html` - Interactive submitted-package and post-submission tracker with localStorage
 - `program.html` - Program description, outcomes, sequence, and capstone
 - `partners.html` - Advisory board and workforce partner information
-- `timeline.html` - Research, development, regional approval, and state submission phases
-- `lmi.html` - Labor market evidence placeholders and target occupations
-- `student-interest.html` - Student interest survey plan and Google Form placeholder
+- `timeline.html` - Research, regional recommendation, state submission, review, and implementation phases
+- `lmi.html` - Labor market findings, target occupations, and the downloadable COE report
+- `student-interest.html` - Submitted student survey findings, projections, and ongoing Google Form
 - `qa.html` - Common questions and short answers
-- `contact.html` - Project lead, advisory interest, and form placeholders
-
-## Editing Forms
-
-Replace the placeholder blocks on `student-interest.html` and `contact.html` with Google Form iframe embed code when the live forms are ready.
+- `contact.html` - Project lead, advisory interest, employer feedback, and student survey links
 
 ## FormSubmit Notes
 
