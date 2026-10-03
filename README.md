@@ -1,6 +1,6 @@
 # Applied Human-AI Collaboration & Leadership BS Proposal Hub
 
-Static application and review website for the proposed Fullerton College Applied Human-AI Collaboration & Leadership Bachelor of Science. The Cycle 9 application was submitted to the CCCCO in August 2026 and is awaiting a state review outcome.
+Static application and review website for the proposed Fullerton College Applied Human-AI Collaboration & Leadership Bachelor of Science. The Cycle 9 application was submitted to the CCCCO in August 2026 and received provisional approval on October 2, 2026. It is now in intersegmental duplication review, with ACCJC and Board of Governors approval still pending.
 
 ## Pages
 
