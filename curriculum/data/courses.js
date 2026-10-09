@@ -413,9 +413,6 @@ window.BDP_COURSES = [
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
-    comparable: [
-      "California State Polytechnic University, Pomona: CIS 4230 Artificial Intelligence Applications in Business [CONFIRM]"
-    ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
@@ -709,10 +706,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University, Fullerton: ISDS 415 Principles of Business Intelligence [CONFIRM]",
-      "California State University, Sacramento: MIS 181 Machine Learning Applications in Business [CONFIRM]"
     ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
@@ -1010,9 +1003,6 @@ window.BDP_COURSES = [
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
-    comparable: [
-      "California State University, Northridge: BANA 310 Data Visualization for Business [CONFIRM]"
-    ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1111 Management Analysts; 11-1021 General and Operations Managers",
@@ -1298,9 +1288,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University, Northridge: MGT 450 Organization Change and Development [CONFIRM]"
     ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
@@ -1598,9 +1585,6 @@ window.BDP_COURSES = [
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
-    comparable: [
-      "California State University, Sacramento: MIS 172 AI Strategy and Architecture [CONFIRM]"
-    ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
@@ -1897,9 +1881,6 @@ window.BDP_COURSES = [
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
-    comparable: [
-      "California State University, Sacramento: MIS 130 Responsible Use of AI [CONFIRM]"
-    ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
@@ -2195,9 +2176,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University, Sacramento: MIS 164 AI Project Practicum [CONFIRM]"
     ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
@@ -2496,9 +2474,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University Channel Islands: COMP 449 Human-Computer Interaction [CONFIRM]"
     ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
@@ -2802,9 +2777,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University, Fullerton: MGMT 340 Organizational Behavior [CONFIRM]"
     ],
     masterDb: {
       top: "0506.00 - Business Management",
@@ -3110,10 +3082,6 @@ window.BDP_COURSES = [
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
-    comparable: [
-      "California State University, Fullerton: ISDS 454 Senior Project: Information Systems Development [CONFIRM]",
-      "California State University San Marcos: BUS 495 Senior Experience [CONFIRM]"
-    ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1082 Project Management Specialists; 13-1111 Management Analysts",
@@ -3418,10 +3386,6 @@ window.BDP_COURSES = [
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
-    ],
-    comparable: [
-      "California State University, Fullerton: ISDS 454 Senior Project: Information Systems Development [CONFIRM]",
-      "California State University San Marcos: BUS 495 Senior Experience [CONFIRM]"
     ],
     masterDb: {
       top: "0501.00 - Business and Commerce, General",

@@ -75,6 +75,73 @@
     </section>`;
   }
 
+  /* ---------------- NAAIC KSA ---------------- */
+  const LEVEL = { I: "Introduced", D: "Developed", M: "Mastered" };
+  function ksaForCourse(key) {
+    const K = window.BDP_KSA;
+    if (!K) return TODO;
+    const hits = K.items.filter((i) => i.map[key]);
+    if (!hits.length) return TODO;
+    const groups = ["M", "D", "I"]
+      .map((lv) => {
+        const g = hits.filter((i) => i.map[key] === lv);
+        if (!g.length) return "";
+        return `<h3>${LEVEL[lv]} in this course (${g.length})</h3><ul class="outline-list ksa-list">${g
+          .map((i) => `<li><span class="ksa-id lv-${lv}">${esc(i.id)}</span> ${esc(i.text)}</li>`)
+          .join("")}</ul>`;
+      })
+      .join("");
+    return `<p class="field-note">Beyond the course outline of record: alignment to the National Applied AI Consortium (NAAIC) 2026 Applied AI Knowledge, Skills, and Abilities. See the <a href="ksa.html">full KSA crosswalk</a> for how each competency progresses from the AS through the BS.</p>${groups}`;
+  }
+
+  function renderKsa(root) {
+    const K = window.BDP_KSA;
+    if (!K) return;
+    const cols = [...K.columns.lower, ...K.columns.upper];
+    const newIds = new Set(COURSES.map((c) => code(c)));
+    const head = (c) => {
+      const id = c.toLowerCase().replace(/\s+/g, "-");
+      const label = esc(c.replace(/ F$/, ""));
+      return newIds.has(c) ? `<a href="course.html?id=${esc(id)}">${label}</a>` : label;
+    };
+    const items = K.items;
+    const covered = items.filter((i) => Object.keys(i.map).length);
+    const dev = items.filter((i) => Object.values(i.map).some((v) => v !== "I"));
+    const mas = items.filter((i) => Object.values(i.map).includes("M"));
+    root.querySelector("[data-ksa-summary]").innerHTML = [
+      [items.length, "NAAIC knowledge and skill items"],
+      [covered.length, "Addressed in the AS-to-BS pathway"],
+      [dev.length, "Developed in upper-division courses"],
+      [mas.length, "Mastered (applied independently)"],
+    ]
+      .map(([n, l]) => `<div><strong>${n}</strong><span>${esc(l)}</span></div>`)
+      .join("");
+    let cat = null;
+    const rows = items
+      .map((i) => {
+        let out = "";
+        if (i.cat !== cat) {
+          cat = i.cat;
+          out += `<tr class="block-row"><th scope="rowgroup" colspan="${cols.length + 1}">${i.id[0] === "K" ? "Knowledge" : "Skills"} · ${esc(cat)}</th></tr>`;
+        }
+        const has = Object.keys(i.map).length;
+        out += `<tr class="${has ? "" : "ksa-none"}"><th scope="row" class="ksa-item"><span class="ksa-id">${esc(i.id)}</span> ${esc(i.text)}</th>${cols
+          .map((c) => {
+            const v = i.map[c];
+            return v ? `<td class="lv lv-${v}" title="${esc(c)}: ${LEVEL[v]}">${v}</td>` : "<td></td>";
+          })
+          .join("")}</tr>`;
+        return out;
+      })
+      .join("");
+    root.querySelector("[data-ksa-head]").innerHTML = `<tr><th scope="col" rowspan="2" class="ksa-item">Competency</th><th scope="colgroup" colspan="${K.columns.lower.length}" class="grp">AI in Business AS (lower division)</th><th scope="colgroup" colspan="${K.columns.upper.length}" class="grp grp-ud">Applied Human-AI BS (upper division)</th></tr><tr>${cols
+      .map((c) => `<th scope="col" class="vcol${K.columns.upper.includes(c) ? " ud" : ""}"><span>${head(c)}</span></th>`)
+      .join("")}</tr>`;
+    root.querySelector("[data-ksa-body]").innerHTML = rows;
+    const tgl = root.querySelector("[data-ksa-toggle]");
+    tgl.addEventListener("change", () => root.querySelector(".ksa-table").classList.toggle("hide-none", tgl.checked));
+  }
+
   /* ---------------- Course outline page ---------------- */
   function renderCourse(root) {
     const params = new URLSearchParams(location.search);
@@ -119,6 +186,7 @@
       "Equity, Inclusion, and Universal Design",
       "Upper-Division Rigor",
       "Master Database",
+      "Workforce Competency Alignment",
     ];
 
     const s = [];
@@ -290,7 +358,7 @@
       )
     );
     s.push(section(15, "General Education and Transfer", list(c.geTransfer)));
-    s.push(section(16, "Comparable Courses", list(c.comparable)));
+    s.push(section(16, "Comparable Courses", `<p>${c.methods ? "Comparable course information is maintained by the program and is available on request." : ""}</p>`));
     s.push(
       section(17, "Multicultural Requirement", c.methods ? `<p>${txt(c.multicultural || D.multicultural)}</p>` : TODO)
     );
@@ -356,6 +424,8 @@
         ])
       )
     );
+
+    s.push(section(21, "Workforce Competency Alignment (NAAIC KSA)", ksaForCourse(code(c))));
 
     root.innerHTML = `
       <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Curriculum</a> <span aria-hidden="true">/</span> ${esc(code(c))}</nav>
@@ -527,6 +597,8 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    const ksa = document.querySelector("[data-ksa]");
+    if (ksa) renderKsa(ksa);
     const path = document.querySelector("[data-pathway]");
     if (path) renderPathway(path);
     const course = document.querySelector("[data-course-root]");
