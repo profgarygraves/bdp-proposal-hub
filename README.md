@@ -7,6 +7,7 @@ Static application and review website for the proposed Fullerton College Applied
 - `index.html` - Home and strategic overview
 - `checklist.html` - Interactive submitted-package and post-submission tracker with localStorage
 - `program.html` - Program description, outcomes, sequence, and capstone
+- `curriculum/` - Curriculum review section: program outline and single-page course outlines in Fullerton College curriculum (CurricUNET) field order. All course content and review status live in `curriculum/data/courses.js`; set each course's `status` to `not-started`, `drafting`, `in-review`, `revising`, or `complete`.
 - `partners.html` - Advisory board and workforce partner information
 - `alignment.html` - CCCCO Vision 2030 goals, outcomes, strategic directions, and accountability crosswalk
 - `timeline.html` - Research, regional recommendation, state submission, review, and implementation phases
