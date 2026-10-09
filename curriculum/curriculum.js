@@ -456,7 +456,79 @@
     root.innerHTML = rows.join("");
   }
 
+
+  /* ---------------- Pathway map ---------------- */
+  function rng(u) {
+    if (typeof u === "number") return [u, u];
+    const [a, b] = String(u).split("-").map(Number);
+    return [a, isNaN(b) ? a : b];
+  }
+  const fmtR = ([a, b]) => (a === b ? `${a}` : `${a}–${b}`);
+  function codeLink(code) {
+    const id = code.toLowerCase().replace(/\s+/g, "-");
+    if (COURSES.some((c) => c.id === id)) return `<a href="course.html?id=${esc(id)}">${esc(code)} F</a>`;
+    if (/^Cal-GETC|elective/i.test(code)) return esc(code);
+    const q = encodeURIComponent(code).replace(/%20/g, "+");
+    return `<a href="https://catalog.nocccd.edu/search/?caturl=%2Ffullerton-college&amp;search=${q}" target="_blank" rel="noopener">${esc(code)}</a>`;
+  }
+  function renderPathway(root) {
+    const P = window.BDP_PATHWAY;
+    if (!P) return;
+    let cum = [0, 0];
+    const terms = P.terms.map((t, i) => {
+      const tot = t.courses.reduce((a, c) => { const r = rng(c.units); return [a[0] + r[0], a[1] + r[1]]; }, [0, 0]);
+      cum = [cum[0] + tot[0], cum[1] + tot[1]];
+      return { ...t, tot, cum: [...cum], n: i + 1 };
+    });
+    const tagClass = (t) => "tag-" + t.toLowerCase().replace(/[^a-z]+/g, "-");
+    const cards = terms
+      .map(
+        (t) => `<section class="term-card" aria-labelledby="term-${t.n}">
+        <header><h3 id="term-${t.n}">Term ${t.n} <span>${esc(t.name)}</span></h3>
+        <p>${t.courses.length} courses · ${fmtR(t.tot)} units</p></header>
+        <ul class="term-courses">${t.courses
+          .map(
+            (c) => `<li>
+            <div class="tc-main"><strong>${c.options.map(codeLink).join(' <span class="or">or</span> ')}</strong>
+            <span class="tc-title">${c.options.length > 1 ? "Choose one: " : ""}${esc(c.title)}</span>
+            ${c.note ? `<span class="tc-note">${esc(c.note)}</span>` : ""}</div>
+            <div class="tc-meta"><span class="ptag ${tagClass(c.tag)}">${esc(c.tag)}</span><span class="tc-units">${fmtR(rng(c.units))} units</span></div>
+          </li>`
+          )
+          .join("")}</ul>
+        ${(t.milestones || [])
+          .map((m) => `<div class="milestone"><span class="ptag tag-milestone">Milestone</span><strong>${esc(m.title)}</strong><p>${esc(m.text)}</p></div>`)
+          .join("")}
+        <footer>Cumulative: ${fmtR(t.cum)} units</footer>
+      </section>`
+      )
+      .join("");
+    const rows = terms
+      .map((t) =>
+        t.courses
+          .map(
+            (c, j) => `<tr>${j === 0 ? `<th scope="rowgroup" rowspan="${t.courses.length}">Term ${t.n}<br><small>${esc(t.name)}</small><br><small>${fmtR(t.tot)} units</small></th>` : ""}
+            <td>${c.options.map(codeLink).join(" or ")}</td><td>${esc(c.title)}</td><td>${esc(c.tag)}</td><td>${fmtR(rng(c.units))}</td></tr>`
+          )
+          .join("")
+      )
+      .join("");
+    root.querySelector("[data-path-cards]").innerHTML = cards;
+    root.querySelector("[data-path-table]").innerHTML = rows;
+    root.querySelector("[data-path-total]").textContent = fmtR(cum);
+    root.querySelectorAll("[data-view]").forEach((b) =>
+      b.addEventListener("click", () => {
+        const v = b.getAttribute("data-view");
+        root.querySelectorAll("[data-view]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        root.querySelector(".path-cards").hidden = v !== "cards";
+        root.querySelector(".path-table").hidden = v !== "table";
+      })
+    );
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
+    const path = document.querySelector("[data-pathway]");
+    if (path) renderPathway(path);
     const course = document.querySelector("[data-course-root]");
     if (course) renderCourse(course);
     const idx = document.querySelector("[data-curriculum-index]");
