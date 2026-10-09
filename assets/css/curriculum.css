@@ -305,6 +305,13 @@ mark.confirm {
   color: var(--elderberry);
 }
 
+.or-row td {
+  padding: 0.1rem 0.8rem 0.1rem 2rem;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--muted);
+  border-bottom: 0;
+}
+
 .total-row th,
 .total-row td {
   font-weight: 800;

@@ -348,7 +348,9 @@
         const q = encodeURIComponent(e.code).replace(/%20/g, "+");
         return `<tr>
           <td><a href="https://catalog.nocccd.edu/search/?caturl=%2Ffullerton-college&amp;search=${q}" target="_blank" rel="noopener">${esc(e.code)}</a></td>
-          <td>${esc(e.title)}${e.note ? `<br><small>${esc(e.note)}</small>` : ""}</td>
+          <td>${esc(e.title)}${e.note ? `<br><small>${esc(e.note)}</small>` : ""}${
+            e.alts ? `<br><small>or ${e.alts.map((a) => esc(a.code)).join(", or ")}</small>` : ""
+          }</td>
           <td>${esc(e.units)}</td>
           <td>${esc(e.block)}</td>
         </tr>`;
@@ -369,16 +371,20 @@
     const rows = [];
     blocks.forEach(([name, units]) => {
       rows.push(`<tr class="block-row"><th scope="rowgroup" colspan="3">${esc(name)} (${units} units)</th></tr>`);
-      EXISTING.filter((e) => e.block === name).forEach((e) =>
-        rows.push(`<tr><td>${esc(e.code)}</td><td>${esc(e.title)}</td><td>${esc(e.units)}</td></tr>`)
-      );
+      EXISTING.filter((e) => e.block === name).forEach((e) => {
+        rows.push(`<tr><td>${esc(e.code)}</td><td>${esc(e.title)}</td><td>${esc(e.units)}</td></tr>`);
+        (e.alts || []).forEach((a) => {
+          rows.push(`<tr class="or-row"><td colspan="3">or</td></tr>`);
+          rows.push(`<tr><td>${esc(a.code)}</td><td>${esc(a.title)}</td><td>${esc(a.units)}</td></tr>`);
+        });
+      });
       COURSES.filter((c) => c.block === name).forEach((c) =>
         rows.push(
           `<tr><td><a href="course.html?id=${esc(c.id)}">${esc(code(c))} F</a></td><td>${esc(c.title)} <span class="new-tag">New</span></td><td>${esc(c.units)}</td></tr>`
         )
       );
     });
-    rows.push(`<tr class="total-row"><th scope="row" colspan="2">Total Major Units</th><td>86</td></tr>`);
+    rows.push(`<tr class="total-row"><th scope="row" colspan="2">Total Units</th><td>86</td></tr>`);
     root.innerHTML = rows.join("");
   }
 
