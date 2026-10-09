@@ -586,3 +586,17 @@ mark.confirm {
   .path-cards { grid-template-columns: 1fr 1fr; }
   .term-card { break-inside: avoid; }
 }
+
+.lock-form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 360px;
+}
+.lock-form label { font-weight: 700; }
+.lock-form input {
+  min-height: 46px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font: inherit;
+}
