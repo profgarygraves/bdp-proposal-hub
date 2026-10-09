@@ -433,8 +433,24 @@ mark.confirm {
     background: #fff;
   }
 
-  .outline-layout {
+  .outline-layout,
+  .outline-body {
     display: block;
+  }
+
+  .curr-wrap {
+    width: 100%;
+  }
+
+  .field-grid div,
+  .field-grid div.wide {
+    grid-template-columns: 34% 1fr;
+  }
+
+  .field-grid dt,
+  .field-grid dd {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.85rem;
   }
 
   .outline-section {
