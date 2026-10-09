@@ -36,6 +36,22 @@
 
   const TODO = '<p class="todo">To be drafted.</p>';
 
+  // Verbs shown in bold on the Fullerton College Bloom's Taxonomy List (critical thinking verbs)
+  const CT_VERBS = new Set("advertise analyze anticipate appraise argue arrange assemble assess attach break calculate categorize choose classify collaborate collect combine compare compile comply compose conclude connect consider construct contrast convince correlate create criticize critique debate decide deduce defend describe design determine develop devise diagram differentiate discriminate dissect distinguish divide estimate evaluate examine experiment explain express facilitate find focus formulate generate grade hypothesize identify illustrate imagine infer inspect integrate interpret intervene invent inventory judge justify make manage measure model modify negotiate order organize originate outline perform persuade plan point predict prepare prioritize produce propose question rank rate rearrange recommend reconstruct reframe relate reorganize report revise rewrite role-play schematize score select separate set simulate solve speculate structure subdivide substitute summarize support survey synthesize tell test validate value weigh write".split(" "));
+
+  // Bold every critical-thinking verb at the start of a clause (sentence start or after "and"/",")
+  function ctList(items) {
+    if (!items || !items.length) return TODO;
+    return `<ul class="outline-list">${items
+      .map((i) => {
+        const html = txt(i).replace(/(^|[,;]\s+|\band\s+|team,\s+)([A-Z]?[a-z-]+)/g, (m, pre, w) =>
+          CT_VERBS.has(w.toLowerCase()) ? `${pre}<strong class="ct-verb">${w}</strong>` : m
+        );
+        return `<li>${html}</li>`;
+      })
+      .join("")}</ul>`;
+  }
+
   function list(items, ordered) {
     if (!items || !items.length) return TODO;
     const tag = ordered ? "ol" : "ul";
@@ -100,6 +116,8 @@
       "General Education and Transfer",
       "Comparable Courses",
       "Multicultural Requirement",
+      "Equity, Inclusion, and Universal Design",
+      "Upper-Division Rigor",
       "Master Database",
     ];
 
@@ -114,7 +132,7 @@
           ["DCCC Approved", hd.dcccApproved],
           ["Board Approved", hd.boardApproved],
           ["State Approved", hd.stateApproved],
-          ["Effective Term", hd.effectiveTerm],
+          ["Effective Term", hd.effectiveTerm || D.effectiveTerm],
           ["State Control #", hd.stateControl],
           ["C-ID #", hd.cid || "Not applicable"],
         ])
@@ -135,9 +153,9 @@
           ["Lab Hours (Full Term Hrs/Wk)", h.lab],
           ["Assignment Preparation Hours", h.prep],
           ["Total Course Hours", h.total],
-          ["Proposed Start", p.startYear ? `${p.startSemester || ""} ${p.startYear}` : ""],
+          ["Proposed Start", `${p.startSemester || "Fall"} ${p.startYear || D.startYear}`],
           ["Class Size", c.classSize || D.classSize],
-          ["Justification for Class Size", p.classSizeJustification],
+          ["Justification for Class Size", p.classSizeJustification || D.classSizeJustification],
           ["Honors Course", p.honors || "No"],
           ["Justification for Proposal", p.justification],
         ])
@@ -207,12 +225,34 @@
       )
     );
     s.push(section(9, "Instructional Methodologies", list(c.methods)));
+    const de = c.de || (c.methods ? D.de : null);
+    const samples = c.deSamples || [];
     s.push(
       section(
         10,
-        "Distance Education",
-        `<h3>Delivery Methods</h3>${list(c.deliveryMethods || (c.methods ? D.deliveryMethods : null))}
-         <h3>Contact Types</h3>${list(c.contactTypes || (c.methods ? D.contactTypes : null))}`
+        "Distance Education Addendum",
+        de
+          ? `<p class="field-note">Follows the Fullerton College Distance Education Addendum (effective Fall 2023), Title 5 §§ 55202, 55204, and 55206.</p>
+         <h3>Rationale</h3><p>${txt(de.rationale)}</p>
+         <h3>Modes of Delivery</h3>${list(de.modes)}
+         <h3>Learning Objectives</h3>
+         <p>${de.canvasMeetsObjectives ? "&#9745; Course objectives and SLOs can be met using Canvas LMS and/or during face-to-face meetings." : ""}</p>
+         ${de.nonCanvas ? `<p>${txt(de.nonCanvas)}</p>` : ""}
+         ${
+           samples.length
+             ? `<div class="table-wrap"><table class="data-table curr-table de-table"><thead><tr><th scope="col">Objective / Outcome</th><th scope="col">Sample online assignment</th><th scope="col">Method of evaluation</th></tr></thead><tbody>${samples
+                 .map((x) => `<tr><td>${txt(x.objective)}</td><td>${txt(x.assignment)}</td><td>${txt(x.evaluation)}</td></tr>`)
+                 .join("")}</tbody></table></div>`
+             : ""
+         }
+         <h3>Regular and Substantive Interaction: Frequency</h3><p>${txt(de.frequency)}</p>
+         <h3>Instructor-Student Interactive Contact</h3>${list(de.instructorStudent)}
+         <h3>Student-Student Interactive Contact</h3>${list(de.studentStudent)}
+         <h3>Student to Content</h3>${list(de.studentContent)}
+         <h3>Instructor Resources</h3>${list(de.instructorResources)}
+         <h3>Student Resources</h3>${list(de.studentResources)}
+         <h3>Accessibility</h3>${list(de.accessibility)}`
+          : TODO
       )
     );
     s.push(section(11, "Multiple Methods of Evaluation", list(c.evaluation)));
@@ -231,7 +271,7 @@
         13,
         "Assignments",
         `<h3>Writing Assignments and/or Proficiency Demonstration</h3>${list(as.writing)}
-         <h3>Assignments that Demonstrate Critical Thinking</h3>${list(as.critical)}`
+         <h3>Assignments that Demonstrate Critical Thinking</h3><p class="field-note">Critical thinking verbs from the Fullerton College Bloom's Taxonomy List appear in bold.</p>${ctList(as.critical)}`
       )
     );
     const lib = c.library || (c.methods ? D.library : null);
@@ -256,6 +296,32 @@
     s.push(
       section(
         18,
+        "Equity, Inclusion, and Universal Design",
+        c.methods
+          ? `<p class="field-note">Approaches faculty may use to accommodate and engage diverse students, advance equitable outcomes, promote inclusion, and apply Universal Design for Learning (Title 5 § 55001.5(b)-(c)).</p>${list(c.equity || D.equity)}`
+          : TODO
+      )
+    );
+    const r = c.rigor;
+    s.push(
+      section(
+        19,
+        "Upper-Division Rigor",
+        r
+          ? `<p class="field-note">Documents how this course meets the upper-division standard in Title 5 § 55091 and ACCJC Standard 2.1 (rigor appropriate to the baccalaureate level, with lower- and upper-division content distinguished).</p>
+             <h3>Lower-Division Knowledge Applied</h3>${list(r.buildsOn)}
+             <h3>How This Course Differs from Lower-Division Work</h3><p>${txt(r.distinction)}</p>
+             <h3>Critical Thinking Through Writing, Oral Communication, or Computation</h3><p>${txt(r.criticalThinking)}</p>
+             <h3>Research and Information Literacy</h3><p>${txt(r.research)}</p>
+             <h3>Alignment to Program Learning Outcomes</h3>${list(r.ploAlignment)}
+             <h3>Enrollment</h3><p>${txt(r.enrollment)}</p>
+             <h3>Faculty Minimum Qualifications</h3><p>${txt(r.facultyQualifications)}</p>`
+          : TODO
+      )
+    );
+    s.push(
+      section(
+        20,
         "Master Database",
         fields([
           ["Division Code", D.divisionCode],
@@ -269,6 +335,7 @@
           ["Basic Skills", D.basicSkills],
           ["Credit Status", D.creditStatus],
           ["CB26 Support Course Status", D.cb26],
+          ["CB27 Upper Division Status", D.cb27],
           ["Lecture Hrs/Week", h.lecture],
           ["Lab Hrs/Week", h.lab],
           ["Preparation Hours", h.prep],

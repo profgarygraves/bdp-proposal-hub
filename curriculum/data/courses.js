@@ -37,21 +37,79 @@ window.BDP_COURSE_DEFAULTS = {
   standAlone: "No",
   sam: "D - Possible Occupational",
   cip: "52.0201",
-  scheduleTypes: "02, 72 [CONFIRM: add HY for hybrid, as the Drone BS does]",
-  classSize: "35 [CONFIRM: Drone BS upper-division courses use 25]",
-  deliveryMethods: [
-    "Online Course - Asynchronous",
-    "Online Course - Synchronous",
-    "Hybrid",
+  scheduleTypes: "02, 72, HY",
+  classSize: "35",
+  classSizeJustification:
+    "Lecture/Discussion/Group Learning/Student Presentations (Fullerton/Cypress Class Size Planning & Resource Document): while the instructor does lecture, much of the class time focuses on discussion, group learning, and formal and informal student presentations.",
+  effectiveTerm: "Fall 2027 [CONFIRM: may move to Fall 2028]",
+  startYear: "2027",
+  cb27: "A - Upper-division course",
+
+  /* Distance Education Addendum (Fullerton College DEA, effective Fall 2023) */
+  de: {
+    rationale:
+      "This course is designed for baccalaureate students, many of whom are working adults, who may not otherwise be able to attend a traditional course, or who want to take advantage of the convenience and flexibility of fully or partially online courses. Online delivery also lets students practice the digital collaboration skills used in AI-enabled organizations.",
+    modes: ["Asynchronous Online", "Synchronous Online", "Hybrid"],
+    canvasMeetsObjectives: true,
+    nonCanvas:
+      "Oral presentations and the team project defense are delivered live through Zoom or recorded with Canvas Studio and submitted in Canvas.",
+    frequency:
+      "Instructor-student and student-student interactions will occur at least weekly for semester-length classes and more frequently for short-term classes via Canvas LMS, Zoom or other video chat, faculty virtual office hours, and email. Instructors will respond to inquiries from students, ideally within 24 hours and within three days Monday through Friday.",
+    instructorStudent: [
+      "Orientations using Canvas LMS",
+      "Email via Canvas LMS: instructor-student questions, comments, and problem-solving; regular to-do lists, reminders, and assignment descriptions",
+      "Announcements: Canvas LMS (at least weekly)",
+      "FAQs posted on Canvas LMS and handled through a designated Q&A discussion board",
+      "Exams/Quizzes/Surveys using Canvas LMS",
+      "Projects submitted using Canvas LMS",
+      "Individualized instruction: instructor-guided application of course content; student demonstration with instructor feedback; instructor facilitation of small group presentations; student projects developed through extensive feedback and re-working; writing assignments developed through feedback and multiple revisions",
+      "Other: virtual office hours and optional live review sessions through Zoom",
+    ],
+    studentStudent: [
+      "Online discussions using Canvas LMS tools (weekly; initial post by Friday, replies to classmates by Sunday)",
+      "Online peer review using Canvas",
+      "Virtual chat and web conferencing (Zoom) for team meetings",
+      "Other: Canvas Groups for cross-functional team projects, monitored by the instructor",
+    ],
+    studentContent: [
+      "Content delivery: lectures and digital handouts; PowerPoints; videos and podcasts",
+      "Access: content on Canvas LMS; content links embedded in Canvas; virtual classroom (Zoom)",
+      "Individual student assignments on Canvas LMS",
+      "Group/team student assignments on Canvas LMS",
+      "Other: guided, hands-on activities with generative AI tools, completed and documented in Canvas",
+    ],
+    instructorResources: [
+      "Hardware: webcam and microphone",
+      "Software: Zoom and Canvas Studio; generative AI platforms approved or licensed by the district",
+    ],
+    studentResources: [
+      "Hardware: webcam and microphone for presentations and team meetings",
+      "Software: access to generative AI tools approved by the district (free or college-provided options)",
+      "No proctoring software is required",
+    ],
+    accessibility: [
+      "Word processing documents designed for accessibility",
+      "Images: use of alternate text",
+      "PowerPoint documents designed for accessibility",
+      "Instructor videos: closed captioning provided",
+      "External links to videos: closed-captioned and designed for accessibility",
+      "External links designed for accessibility",
+      "Other: AI tools are reviewed for accessibility before use, and an accessible alternative is provided for any tool that does not meet Section 508 standards",
+    ],
+  },
+
+  /* Title 5 § 55001.5(b)-(c): equity, inclusion, and Universal Design for Learning */
+  equity: [
+    "Case studies and examples drawn from organizations of different sizes, industries, and communities, including small businesses and organizations led by people from groups underrepresented in technology leadership.",
+    "Multiple means of representation: readings, captioned video, audio, and visual summaries for each module.",
+    "Multiple means of action and expression: students may show learning through written analyses, recorded presentations, live presentations, or visual deliverables when the outcome allows.",
+    "Multiple means of engagement: choice of organization or industry for major projects so students can connect coursework to their own workplaces and career goals.",
+    "Transparent assignment design with published rubrics, examples, and staged deadlines with feedback before final submission.",
+    "Low-cost and open educational resources wherever possible, with required materials available through the library.",
+    "Explicit course content on how AI systems can create or reduce inequities, including bias in hiring, evaluation, and access to technology.",
+    "Referrals to Disability Support Services, tutoring, basic needs, and other student support services.",
   ],
-  contactTypes: [
-    "Threaded Conferencing - Weekly required discussion boards (initial post by Friday, replies to classmates by Sunday)",
-    "Announcements - Weekly instructor announcements summarizing the module and connecting it to current AI developments",
-    "E-mail / Canvas Inbox - Instructor response within 24 to 48 hours",
-    "Individualized Feedback - Written or recorded feedback on every major assignment",
-    "Video Conferencing - Scheduled office hours and optional live sessions via Zoom",
-    "Group Collaboration - Instructor-monitored team spaces for cross-functional team projects",
-  ],
+
   library: {
     adequate: "Yes",
     cost: "0",
@@ -79,17 +137,15 @@ window.BDP_COURSES = [
       dcccApproved: "",
       boardApproved: "",
       stateApproved: "",
-      effectiveTerm: "[CONFIRM: first upper-division term]",
+      effectiveTerm: "",
       stateControl: "",
       cid: "",
     },
     hours: { lecture: 4, lab: 0, prep: 8, total: 216, lectureTerm: 72 },
     proposal: {
-      startYear: "[CONFIRM]",
+      startYear: "",
       startSemester: "Fall",
       honors: "No",
-      classSizeJustification:
-        "Upper-division seminar-style course with weekly case discussion, team projects, and individualized instructor feedback on written analyses.",
       justification:
         "This is an upper division course that is part of the Applied Human-AI Collaboration and Leadership baccalaureate program. It provides the upper-division organizational behavior and leadership foundation required for students who will lead AI adoption in organizations.",
     },
@@ -110,6 +166,23 @@ window.BDP_COURSES = [
       {
         outcome: "Design organizational and leadership approaches that support effective human-AI collaboration.",
         assessment: "Project",
+      },
+    ],
+    deSamples: [
+      {
+        objective: "Analyze the impact of artificial intelligence on organizational behavior, team dynamics, and leadership practices.",
+        assignment: "Case analysis paper on a real organization's AI adoption, submitted in Canvas, with a draft reviewed by peers in a Canvas discussion.",
+        evaluation: "Rubric-scored paper with written instructor feedback in Canvas SpeedGrader.",
+      },
+      {
+        objective: "Evaluate leadership strategies for managing change in AI-enabled environments.",
+        assignment: "Weekly discussion comparing leadership approaches in a current AI transformation, followed by a Canvas exam with scenario-based questions.",
+        evaluation: "Discussion rubric and Canvas exam.",
+      },
+      {
+        objective: "Design organizational and leadership approaches that support effective human-AI collaboration.",
+        assignment: "Team project designing a human-AI collaboration strategy, built in Canvas Groups and presented live through Zoom or as a recorded Canvas Studio presentation.",
+        evaluation: "Project and oral presentation rubrics, plus peer evaluation of team contributions.",
       },
     ],
     objectives: [
@@ -301,6 +374,7 @@ window.BDP_COURSES = [
         "Mollick, Ethan. Co-Intelligence: Living and Working with AI. Portfolio, 2024. Recommended",
       ],
       supplemental: [
+        "Black, J. Stewart, David S. Bright, et al. Organizational Behavior. OpenStax, 2019. Open educational resource (free).",
         "Northouse, Peter G. Leadership: Theory and Practice, 9th ed. SAGE, 2021.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI and the workforce.",
       ],
@@ -318,6 +392,28 @@ window.BDP_COURSES = [
         "Design a change management plan for an AI adoption initiative, including readiness assessment, resistance strategies, and success measures.",
         "Working in a cross-functional team, design a human-AI collaboration strategy for an organization and defend it in a presentation to a panel.",
       ],
+    },
+    rigor: {
+      buildsOn: [
+        "BUS 271 F Leadership and Business Ethics",
+        "BUS 256 F Artificial Intelligence and Prompt Engineering for Business",
+        "BUS 257 F AI Applications for Business",
+        "BUS 108 F Living in an Online World",
+      ],
+      distinction:
+        "BUS 271 F introduces leadership theory and business ethics at the lower-division level. BUS 371 requires students to apply and evaluate organizational behavior and leadership theory in AI-driven organizational change, use research evidence to analyze real organizations, and design organization-level strategies for human-AI collaboration.",
+      criticalThinking:
+        "Demonstrated through writing (case analysis paper and change management plan) and oral communication (team strategy presentation defended before a panel).",
+      research:
+        "Students locate and evaluate peer-reviewed research and industry reports through library databases for the case analysis paper and team project.",
+      ploAlignment: [
+        "SLO 1 supports PLO 2 (Lead organizational change and digital transformation)",
+        "SLO 2 supports PLO 2 (Lead organizational change and digital transformation)",
+        "SLO 3 supports PLO 1 (Implement AI-enabled solutions) and PLO 4 (Develop and communicate AI strategy)",
+      ],
+      enrollment: "Enrollment limited to students admitted to the baccalaureate degree program.",
+      facultyQualifications:
+        "Master's degree in business administration, business management, or management, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410).",
     },
     geTransfer: ["CSU Transfer Course: Yes"],
     comparable: [

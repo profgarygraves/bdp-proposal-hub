@@ -467,3 +467,12 @@ mark.confirm {
     columns: 1;
   }
 }
+
+.ct-verb {
+  color: var(--elderberry);
+}
+
+.de-table {
+  min-width: 620px;
+  font-size: 0.92rem;
+}
