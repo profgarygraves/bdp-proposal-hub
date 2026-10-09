@@ -368,13 +368,13 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Davenport, Thomas H., and Steven M. Miller. Working with AI: Real Stories of Human-Machine Collaboration. MIT Press, 2022. Recommended",
-        "Narayanan, Arvind, and Sayash Kapoor. AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference. Princeton University Press, 2024. Recommended",
-        "Leonardi, Paul, and Tsedal Neeley. The Digital Mindset: What It Really Takes to Thrive in the Age of Data, Algorithms, and AI. Harvard Business Review Press, 2022. Recommended"
+        "Davenport, Thomas H., and Steven M. Miller. Working with AI: Real Stories of Human-Machine Collaboration, 1st ed. Cambridge, MA: MIT Press, 2022. Recommended",
+        "Narayanan, Arvind, and Sayash Kapoor. AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, 1st ed. Princeton, NJ: Princeton University Press, 2024. Recommended",
+        "Leonardi, Paul, and Tsedal Neeley. The Digital Mindset: What It Really Takes to Thrive in the Age of Data, Algorithms, and AI, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended"
       ],
       supplemental: [
-        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science. OpenStax, 2025. Open educational resource (free).",
-        "Shneiderman, Ben. Human-Centered AI. Oxford University Press, 2022.",
+        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science, 1st ed. Houston, TX: OpenStax, 2025. Open educational resource (free).",
+        "Shneiderman, Ben. Human-Centered AI, 1st ed. New York: Oxford University Press, 2022.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry research on AI adoption and workflow redesign."
       ]
     },
@@ -420,7 +420,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management"
-    }
+    },
+    sampleEssay: "A regional bank plans to let a generative AI assistant draft responses to customer loan inquiries, with staff reviewing each draft before it is sent. Analyze which parts of this workflow should remain human, which can be automated, and which should be shared. Justify your design using course frameworks on task allocation, AI limitations, and appropriate reliance, and explain how you would test whether the design works."
   },
   {
     id: "hai-310",
@@ -665,12 +666,12 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Prediction Machines: The Simple Economics of Artificial Intelligence, Updated and Expanded ed. Harvard Business Review Press, 2022. Recommended",
-        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Power and Prediction: The Disruptive Economics of Artificial Intelligence. Harvard Business Review Press, 2022. Recommended",
-        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science. OpenStax, 2025. Open educational resource (free). Recommended"
+        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Prediction Machines: The Simple Economics of Artificial Intelligence, Updated and Expanded ed. Boston: Harvard Business Review Press, 2022. Recommended",
+        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Power and Prediction: The Disruptive Economics of Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended",
+        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science, 1st ed. Houston, TX: OpenStax, 2025. Open educational resource (free). Recommended"
       ],
       supplemental: [
-        "Kahneman, Daniel, Olivier Sibony, and Cass R. Sunstein. Noise: A Flaw in Human Judgment. Little, Brown Spark, 2021.",
+        "Kahneman, Daniel, Olivier Sibony, and Cass R. Sunstein. Noise: A Flaw in Human Judgment, 1st ed. New York: Little, Brown Spark, 2021.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry research on AI-supported decision-making."
       ]
     },
@@ -717,7 +718,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1111 Management Analysts; 11-1021 General and Operations Managers",
       fsa: "A35 - Business, B90 - Management"
-    }
+    },
+    sampleEssay: "An AI model predicts which customers are likely to cancel their subscriptions, and leadership wants to offer discounts to everyone above a 60 percent risk score. Evaluate this decision rule using expected-value reasoning and the costs of false positives and false negatives. Recommend a decision threshold and process, and explain the human judgment that should remain in the decision."
   },
   {
     id: "hai-320",
@@ -962,12 +964,12 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Sharda, Ramesh, Dursun Delen, and Efraim Turban. Business Intelligence, Analytics, Data Science, and AI, 5th ed. Pearson, 2024. Recommended",
-        "Schwabish, Jonathan. Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks. Columbia University Press, 2021. Recommended",
-        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science. OpenStax, 2025. Open educational resource (free). Recommended"
+        "Sharda, Ramesh, Dursun Delen, and Efraim Turban. Business Intelligence, Analytics, Data Science, and AI, 5th ed. Hoboken, NJ: Pearson, 2024. Recommended",
+        "Schwabish, Jonathan. Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks, 1st ed. New York: Columbia University Press, 2021. Recommended",
+        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science, 1st ed. Houston, TX: OpenStax, 2025. Open educational resource (free). Recommended"
       ],
       supplemental: [
-        "Knaflic, Cole Nussbaumer. Storytelling with Data: A Data Visualization Guide for Business Professionals. Wiley, 2015.",
+        "Knaflic, Cole Nussbaumer. Storytelling with Data: A Data Visualization Guide for Business Professionals, 1st ed. Hoboken, NJ: Wiley, 2015.",
         "Vendor documentation and free training for Tableau Public and Microsoft Power BI.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on analytics and AI."
       ]
@@ -1015,7 +1017,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1111 Management Analysts; 11-1021 General and Operations Managers",
       fsa: "A35 - Business, B90 - Management, M50 - Computer Information Systems"
-    }
+    },
+    sampleEssay: "You are given a dashboard showing that sales rose 20 percent after an AI pricing tool was introduced. Critique the dashboard and the claim: identify at least three data quality, statistical, or visualization problems that could make the conclusion misleading, and propose a revised analysis and visualization that would give leaders a defensible answer."
   },
   {
     id: "hai-340",
@@ -1251,13 +1254,13 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Jesuthasan, Ravin, and Tanuj Kapilashrami. The Skills-Powered Organization: The Journey to the Next-Generation Enterprise. MIT Press, 2024. Recommended",
-        "Jesuthasan, Ravin, and John W. Boudreau. Work Without Jobs: How to Reboot Your Organization's Work Operating System. MIT Press, 2022. Recommended",
-        "Davenport, Thomas H., and Steven M. Miller. Working with AI: Real Stories of Human-Machine Collaboration. MIT Press, 2022. Recommended"
+        "Jesuthasan, Ravin, and Tanuj Kapilashrami. The Skills-Powered Organization: The Journey to the Next-Generation Enterprise, 1st ed. Cambridge, MA: MIT Press, 2024. Recommended",
+        "Jesuthasan, Ravin, and John W. Boudreau. Work Without Jobs: How to Reboot Your Organization's Work Operating System, 1st ed. Cambridge, MA: MIT Press, 2022. Recommended",
+        "Davenport, Thomas H., and Steven M. Miller. Working with AI: Real Stories of Human-Machine Collaboration, 1st ed. Cambridge, MA: MIT Press, 2022. Recommended"
       ],
       supplemental: [
-        "Bright, David S., Anastasia H. Cortes, et al. Principles of Management. OpenStax, 2019. Open educational resource (free).",
-        "Kotter, John P. Leading Change, with a New Preface by the Author. Harvard Business Review Press, 2012.",
+        "Bright, David S., Anastasia H. Cortes, et al. Principles of Management, 1st ed. Houston, TX: OpenStax, 2019. Open educational resource (free).",
+        "Kotter, John P. Leading Change, with a New Preface by the Author, 1st ed. Boston: Harvard Business Review Press, 2012.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI and workforce transformation."
       ]
     },
@@ -1303,7 +1306,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management"
-    }
+    },
+    sampleEssay: "A hospital system will introduce AI scheduling and documentation tools that change the daily work of 400 administrative employees. Develop a leadership strategy for the first year that addresses role redesign, reskilling, employee concerns, and communication. Justify each element with course concepts and explain how you would measure whether the transition succeeded."
   },
   {
     id: "hai-350",
@@ -1549,9 +1553,9 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Lamarre, Eric, Kate Smaje, and Rodney Zemmel. Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI. Wiley, 2023. Recommended",
-        "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence. Harvard Business Review Press, 2023. Recommended",
-        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Power and Prediction: The Disruptive Economics of Artificial Intelligence. Harvard Business Review Press, 2022. Recommended"
+        "Lamarre, Eric, Kate Smaje, and Rodney Zemmel. Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI, 1st ed. Hoboken, NJ: Wiley, 2023. Recommended",
+        "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2023. Recommended",
+        "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Power and Prediction: The Disruptive Economics of Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended"
       ],
       supplemental: [
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource.",
@@ -1601,7 +1605,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management"
-    }
+    },
+    sampleEssay: "A mid-sized manufacturer has identified twelve possible AI use cases but can fund only three this year. Formulate the criteria you would use to prioritize them, apply those criteria to three contrasting example use cases, and justify a phased roadmap that balances quick value, feasibility, risk, and long-term strategy."
   },
   {
     id: "hai-360",
@@ -1847,8 +1852,8 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Lu, Qinghua, Liming Zhu, Jon Whittle, and Xiwei Xu. Responsible AI: Best Practices for Creating Trustworthy AI Systems, 1st ed. Addison-Wesley, 2023. Recommended",
-        "Blackman, Reid. Ethical Machines: Your Concise Guide to Totally Unbiased, Transparent, and Respectful AI. Harvard Business Review Press, 2022. Recommended",
+        "Lu, Qinghua, Liming Zhu, Jon Whittle, and Xiwei Xu. Responsible AI: Best Practices for Creating Trustworthy AI Systems, 1st ed. Boston: Addison-Wesley, 2023. Recommended",
+        "Blackman, Reid. Ethical Machines: Your Concise Guide to Totally Unbiased, Transparent, and Respectful AI, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended",
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource. Recommended"
       ],
       supplemental: [
@@ -1899,7 +1904,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management, B75 - Law"
-    }
+    },
+    sampleEssay: "A company plans to use an AI tool to screen job applicants in California and in the European Union. Evaluate the ethical, legal, and governance risks of this plan, and design a governance approach that includes risk assessment, bias testing, documentation, human oversight, and accountability. Defend which risks you would treat as unacceptable and why."
   },
   {
     id: "hai-370",
@@ -2144,12 +2150,12 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Kloppenborg, Timothy J., Vittal S. Anantatmula, and Kathryn N. Wells. Contemporary Project Management: Plan-Driven and Agile Approaches, 5th ed. Cengage, 2023. Recommended",
-        "Bratsis, Irene. AI Product Manager's Handbook, 2nd ed. Packt Publishing, 2024. Recommended"
+        "Kloppenborg, Timothy J., Vittal S. Anantatmula, and Kathryn N. Wells. Contemporary Project Management: Plan-Driven and Agile Approaches, 5th ed. Boston: Cengage, 2023. Recommended",
+        "Bratsis, Irene. AI Product Manager's Handbook, 2nd ed. Birmingham, UK: Packt Publishing, 2024. Recommended"
       ],
       supplemental: [
-        "Project Management Institute. A Guide to the Project Management Body of Knowledge (PMBOK Guide), 8th ed. Project Management Institute, 2025.",
-        "Watt, Adrienne. Project Management, 2nd ed. BCcampus, 2014. Open educational resource (free).",
+        "Project Management Institute. A Guide to the Project Management Body of Knowledge (PMBOK Guide), 8th ed. Newtown Square, PA: Project Management Institute, 2025.",
+        "Watt, Adrienne. Project Management, 2nd ed. Victoria, BC: BCcampus, 2014. Open educational resource (free).",
         "Schwaber, Ken, and Jeff Sutherland. The Scrum Guide. Scrum.org, 2020. Free resource.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and PMI publications on managing AI initiatives."
       ]
@@ -2197,7 +2203,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1082 Project Management Specialists; 11-1021 General and Operations Managers",
       fsa: "A35 - Business, B90 - Management"
-    }
+    },
+    sampleEssay: "An AI chatbot project is three months behind schedule because the training data was incomplete and the business sponsor keeps adding requirements. Analyze the root causes of the problems using project management concepts, and propose a recovery plan that addresses scope, schedule, data dependencies, and stakeholder communication."
   },
   {
     id: "hai-380",
@@ -2443,11 +2450,11 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Nudelman, Greg, and Daria Kempka. UX for AI: A Framework for Designing AI-Driven Products. Wiley, 2025. Recommended",
-        "Shneiderman, Ben. Human-Centered AI. Oxford University Press, 2022. Recommended"
+        "Nudelman, Greg, and Daria Kempka. UX for AI: A Framework for Designing AI-Driven Products, 1st ed. Hoboken, NJ: Wiley, 2025. Recommended",
+        "Shneiderman, Ben. Human-Centered AI, 1st ed. New York: Oxford University Press, 2022. Recommended"
       ],
       supplemental: [
-        "Deibel, Diana, and Rebecca Evanhoe. Conversations with Things: UX Design for Chat and Voice. Rosenfeld Media, 2021.",
+        "Deibel, Diana, and Rebecca Evanhoe. Conversations with Things: UX Design for Chat and Voice, 1st ed. Brooklyn, NY: Rosenfeld Media, 2021.",
         "Google People + AI Research (PAIR). People + AI Guidebook. Google, online edition. Free resource.",
         "Amershi, Saleema, et al. \"Guidelines for Human-AI Interaction.\" Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 2019. Free resource.",
         "World Wide Web Consortium (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. W3C, 2023. Free resource.",
@@ -2497,7 +2504,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1111 Management Analysts; 11-1021 General and Operations Managers",
       fsa: "A35 - Business, B90 - Management, M50 - Computer Information Systems"
-    }
+    },
+    sampleEssay: "Users of a company's AI expense-review assistant either accept every recommendation without checking or ignore the tool entirely. Analyze why both patterns occur using course concepts on trust, explainability, and human-AI interaction guidelines, and propose specific interface and workflow design changes that would encourage appropriate reliance. Explain how you would test your changes with users."
   },
   {
     id: "bus-371",
@@ -2516,51 +2524,55 @@ window.BDP_COURSES = [
       stateApproved: "",
       effectiveTerm: "",
       stateControl: "",
-      cid: "",
+      cid: ""
     },
-    hours: { lecture: 4, lab: 0, prep: 8, total: 216, lectureTerm: 72 },
+    hours: {
+      lecture: 4,
+      lab: 0,
+      prep: 8,
+      total: 216,
+      lectureTerm: 72
+    },
     proposal: {
       startYear: "",
       startSemester: "Fall",
       honors: "No",
-      justification:
-        "This is an upper division course that is part of the Applied Human-AI Collaboration and Leadership baccalaureate program. It provides the upper-division organizational behavior and leadership foundation required for students who will lead AI adoption in organizations.",
+      justification: "This is an upper division course that is part of the Applied Human-AI Collaboration and Leadership baccalaureate program. It provides the upper-division organizational behavior and leadership foundation required for students who will lead AI adoption in organizations."
     },
-    description:
-      "This course examines advanced concepts in organizational behavior and leadership within technology-driven and AI-enabled environments. Students analyze how artificial intelligence is transforming workplace structures, decision-making, and leadership practices. Emphasis is placed on managing organizational change, leading cross-functional teams, and designing human-AI collaboration strategies that enhance performance and innovation.",
+    description: "This course examines advanced concepts in organizational behavior and leadership within technology-driven and AI-enabled environments. Students analyze how artificial intelligence is transforming workplace structures, decision-making, and leadership practices. Emphasis is placed on managing organizational change, leading cross-functional teams, and designing human-AI collaboration strategies that enhance performance and innovation.",
     entrySkills: [
-      "Admission into the baccalaureate degree program upon completion of all required lower division courses.",
+      "Admission into the baccalaureate degree program upon completion of all required lower division courses."
     ],
     slos: [
       {
         outcome: "Analyze the impact of artificial intelligence on organizational behavior, team dynamics, and leadership practices.",
-        assessment: "Case Analysis Paper",
+        assessment: "Case Analysis Paper"
       },
       {
         outcome: "Evaluate leadership strategies for managing change in AI-enabled environments.",
-        assessment: "Exam",
+        assessment: "Exam"
       },
       {
         outcome: "Design organizational and leadership approaches that support effective human-AI collaboration.",
-        assessment: "Project",
-      },
+        assessment: "Project"
+      }
     ],
     deSamples: [
       {
         objective: "Analyze the impact of artificial intelligence on organizational behavior, team dynamics, and leadership practices.",
         assignment: "Case analysis paper on a real organization's AI adoption, submitted in Canvas, with a draft reviewed by peers in a Canvas discussion.",
-        evaluation: "Rubric-scored paper with written instructor feedback in Canvas SpeedGrader.",
+        evaluation: "Rubric-scored paper with written instructor feedback in Canvas SpeedGrader."
       },
       {
         objective: "Evaluate leadership strategies for managing change in AI-enabled environments.",
         assignment: "Weekly discussion comparing leadership approaches in a current AI transformation, followed by a Canvas exam with scenario-based questions.",
-        evaluation: "Discussion rubric and Canvas exam.",
+        evaluation: "Discussion rubric and Canvas exam."
       },
       {
         objective: "Design organizational and leadership approaches that support effective human-AI collaboration.",
         assignment: "Team project designing a human-AI collaboration strategy, built in Canvas Groups and presented live through Zoom or as a recorded Canvas Studio presentation.",
-        evaluation: "Project and oral presentation rubrics, plus peer evaluation of team contributions.",
-      },
+        evaluation: "Project and oral presentation rubrics, plus peer evaluation of team contributions."
+      }
     ],
     objectives: [
       "Explain foundational organizational behavior theories at the individual, group, and organizational levels and apply them to technology-driven workplaces.",
@@ -2574,7 +2586,7 @@ window.BDP_COURSES = [
       "Examine power, politics, and stakeholder resistance during technology-driven change.",
       "Analyze ethical, equity, and inclusion implications of AI in workforce decisions such as hiring, performance management, and employee monitoring.",
       "Design a human-AI collaboration strategy for a team, department, or organization.",
-      "Communicate leadership recommendations to executive and frontline audiences in writing and in oral presentations.",
+      "Communicate leadership recommendations to executive and frontline audiences in writing and in oral presentations."
     ],
     content: [
       {
@@ -2583,8 +2595,8 @@ window.BDP_COURSES = [
           "Levels of analysis: individual, group, organization",
           "Historical waves of workplace technology and their effects on work",
           "Why AI differs: prediction, generation, and autonomy",
-          "Evidence-based management and the role of data",
-        ],
+          "Evidence-based management and the role of data"
+        ]
       },
       {
         topic: "Work design and human-AI task allocation",
@@ -2592,8 +2604,8 @@ window.BDP_COURSES = [
           "Job characteristics model revisited",
           "Automation versus augmentation",
           "Task decomposition and human-in-the-loop design",
-          "Emerging roles: AI champions, prompt specialists, AI operations",
-        ],
+          "Emerging roles: AI champions, prompt specialists, AI operations"
+        ]
       },
       {
         topic: "Perception, judgment, and decision-making with AI",
@@ -2601,8 +2613,8 @@ window.BDP_COURSES = [
           "Bounded rationality and heuristics",
           "Automation bias, algorithm aversion, and appropriate reliance",
           "Explainability and its effect on trust",
-          "Group decision processes with AI input",
-        ],
+          "Group decision processes with AI input"
+        ]
       },
       {
         topic: "Motivation, engagement, and well-being",
@@ -2610,8 +2622,8 @@ window.BDP_COURSES = [
           "Content and process theories of motivation",
           "Self-determination theory and autonomy in AI-assisted work",
           "Technostress, deskilling, and job insecurity",
-          "Designing for meaningful work",
-        ],
+          "Designing for meaningful work"
+        ]
       },
       {
         topic: "Attitudes, trust, and psychological safety",
@@ -2619,8 +2631,8 @@ window.BDP_COURSES = [
           "Job satisfaction and organizational commitment",
           "Trust in technology and trust in leaders",
           "Psychological safety and experimentation with AI tools",
-          "Measuring employee sentiment",
-        ],
+          "Measuring employee sentiment"
+        ]
       },
       {
         topic: "Teams and cross-functional collaboration",
@@ -2628,8 +2640,8 @@ window.BDP_COURSES = [
           "Team composition, roles, and development stages",
           "Bridging technical and business teams",
           "Virtual and hybrid team practices",
-          "AI agents and assistants as team members",
-        ],
+          "AI agents and assistants as team members"
+        ]
       },
       {
         topic: "Communication in AI-enabled organizations",
@@ -2637,8 +2649,8 @@ window.BDP_COURSES = [
           "Communication channels and information richness",
           "Translating technical concepts for non-technical stakeholders",
           "AI-generated communication: benefits, risks, and authenticity",
-          "Crisis and change communication",
-        ],
+          "Crisis and change communication"
+        ]
       },
       {
         topic: "Conflict, negotiation, and power",
@@ -2646,8 +2658,8 @@ window.BDP_COURSES = [
           "Sources of conflict in technology change",
           "Negotiation strategies across functions",
           "Bases of power and influence tactics",
-          "Organizational politics during AI adoption",
-        ],
+          "Organizational politics during AI adoption"
+        ]
       },
       {
         topic: "Leadership theories and their application",
@@ -2655,8 +2667,8 @@ window.BDP_COURSES = [
           "Trait, behavioral, and contingency approaches",
           "Transformational, servant, and authentic leadership",
           "Adaptive leadership for complex problems",
-          "Leading with and through AI tools",
-        ],
+          "Leading with and through AI tools"
+        ]
       },
       {
         topic: "Leading digital transformation",
@@ -2664,8 +2676,8 @@ window.BDP_COURSES = [
           "Strategic vision and sense-making",
           "Leader roles across the AI adoption lifecycle",
           "Balancing efficiency gains with workforce impact",
-          "Executive, middle-manager, and frontline leadership",
-        ],
+          "Executive, middle-manager, and frontline leadership"
+        ]
       },
       {
         topic: "Organizational change management",
@@ -2673,8 +2685,8 @@ window.BDP_COURSES = [
           "Lewin, Kotter, and ADKAR models",
           "Readiness for change and resistance",
           "Pilots, scaling, and sustaining change",
-          "Measuring change outcomes",
-        ],
+          "Measuring change outcomes"
+        ]
       },
       {
         topic: "Organizational culture and learning",
@@ -2682,8 +2694,8 @@ window.BDP_COURSES = [
           "Elements and levels of culture",
           "Innovation and learning cultures",
           "Upskilling and reskilling strategies",
-          "Knowledge management with AI",
-        ],
+          "Knowledge management with AI"
+        ]
       },
       {
         topic: "Organizational structure and design",
@@ -2691,8 +2703,8 @@ window.BDP_COURSES = [
           "Centralized versus federated AI functions",
           "Centers of excellence and governance bodies",
           "Flattening, span of control, and role redesign",
-          "Agile and networked organizational forms",
-        ],
+          "Agile and networked organizational forms"
+        ]
       },
       {
         topic: "Ethics, equity, and inclusion in AI-enabled workplaces",
@@ -2700,8 +2712,8 @@ window.BDP_COURSES = [
           "AI in hiring, evaluation, and promotion",
           "Employee monitoring and privacy",
           "Bias, fairness, and accessibility",
-          "Ethical leadership and accountability",
-        ],
+          "Ethical leadership and accountability"
+        ]
       },
       {
         topic: "Performance management and human resources",
@@ -2709,8 +2721,8 @@ window.BDP_COURSES = [
           "Goal setting and feedback with AI analytics",
           "Redefining productivity metrics",
           "Workforce planning and talent strategy",
-          "Labor relations and employee voice",
-        ],
+          "Labor relations and employee voice"
+        ]
       },
       {
         topic: "Designing human-AI collaboration strategies",
@@ -2718,9 +2730,9 @@ window.BDP_COURSES = [
           "Integrating individual, team, and organizational factors",
           "Building a collaboration and adoption roadmap",
           "Presenting recommendations to stakeholders",
-          "Reflection on leadership development",
-        ],
-      },
+          "Reflection on leadership development"
+        ]
+      }
     ],
     methods: [
       "Course type: scheduled lecture hours",
@@ -2730,7 +2742,7 @@ window.BDP_COURSES = [
       "Individualized feedback on student work",
       "Student presentations",
       "Guest speakers",
-      "Show instructional videos",
+      "Show instructional videos"
     ],
     evaluation: [
       "Class Participation",
@@ -2742,65 +2754,64 @@ window.BDP_COURSES = [
       "Papers",
       "Projects",
       "Quizzes",
-      "Research Projects",
+      "Research Projects"
     ],
     textbooks: {
       recommended: [
-        "Robbins, Stephen P., and Timothy A. Judge. Organizational Behavior, 19th ed. Pearson, 2022. Recommended",
-        "Daugherty, Paul R., and H. James Wilson. Human + Machine: Reimagining Work in the Age of AI, Updated and Expanded ed. Harvard Business Review Press, 2024. Recommended",
-        "Mollick, Ethan. Co-Intelligence: Living and Working with AI. Portfolio, 2024. Recommended",
+        "Robbins, Stephen P., and Timothy A. Judge. Organizational Behavior, 19th ed. Hoboken, NJ: Pearson, 2022. Recommended",
+        "Daugherty, Paul R., and H. James Wilson. Human + Machine: Reimagining Work in the Age of AI, Updated and Expanded ed. Boston: Harvard Business Review Press, 2024. Recommended",
+        "Mollick, Ethan. Co-Intelligence: Living and Working with AI, 1st ed. New York: Portfolio, 2024. Recommended"
       ],
       supplemental: [
-        "Black, J. Stewart, David S. Bright, et al. Organizational Behavior. OpenStax, 2019. Open educational resource (free).",
-        "Northouse, Peter G. Leadership: Theory and Practice, 9th ed. SAGE, 2021.",
-        "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI and the workforce.",
-      ],
+        "Black, J. Stewart, David S. Bright, et al. Organizational Behavior, 1st ed. Houston, TX: OpenStax, 2019. Open educational resource (free).",
+        "Northouse, Peter G. Leadership: Theory and Practice, 9th ed. Thousand Oaks, CA: SAGE, 2021.",
+        "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI and the workforce."
+      ]
     },
     assignments: {
       writing: [
         "Read assigned chapters, articles, and case studies to prepare for weekly discussions on organizational behavior in AI-enabled workplaces.",
         "Write a case analysis paper that examines how a real organization's AI adoption affected job design, employee attitudes, and team dynamics.",
         "Complete a leadership self-assessment and write a reflective paper on personal leadership strengths for leading technology change.",
-        "Prepare a stakeholder communication plan that explains an AI initiative to executive, management, and frontline audiences.",
+        "Prepare a stakeholder communication plan that explains an AI initiative to executive, management, and frontline audiences."
       ],
       critical: [
         "Evaluate two leadership approaches used during an AI transformation and justify which was more effective, using course theories as evidence.",
         "Analyze a workplace decision in which people relied on AI recommendations and assess the risks of automation bias and the safeguards that were or should have been in place.",
         "Design a change management plan for an AI adoption initiative, including readiness assessment, resistance strategies, and success measures.",
-        "Working in a cross-functional team, design a human-AI collaboration strategy for an organization and defend it in a presentation to a panel.",
-      ],
+        "Working in a cross-functional team, design a human-AI collaboration strategy for an organization and defend it in a presentation to a panel."
+      ]
     },
     rigor: {
       buildsOn: [
         "BUS 271 F Leadership and Business Ethics",
         "BUS 256 F Artificial Intelligence and Prompt Engineering for Business",
         "BUS 257 F AI Applications for Business",
-        "BUS 108 F Living in an Online World",
+        "BUS 108 F Living in an Online World"
       ],
-      distinction:
-        "BUS 271 F introduces leadership theory and business ethics at the lower-division level. BUS 371 requires students to apply and evaluate organizational behavior and leadership theory in AI-driven organizational change, use research evidence to analyze real organizations, and design organization-level strategies for human-AI collaboration.",
-      criticalThinking:
-        "Demonstrated through writing (case analysis paper and change management plan) and oral communication (team strategy presentation defended before a panel).",
-      research:
-        "Students locate and evaluate peer-reviewed research and industry reports through library databases for the case analysis paper and team project.",
+      distinction: "BUS 271 F introduces leadership theory and business ethics at the lower-division level. BUS 371 requires students to apply and evaluate organizational behavior and leadership theory in AI-driven organizational change, use research evidence to analyze real organizations, and design organization-level strategies for human-AI collaboration.",
+      criticalThinking: "Demonstrated through writing (case analysis paper and change management plan) and oral communication (team strategy presentation defended before a panel).",
+      research: "Students locate and evaluate peer-reviewed research and industry reports through library databases for the case analysis paper and team project.",
       ploAlignment: [
         "SLO 1 supports PLO 2 (Lead organizational change and digital transformation)",
         "SLO 2 supports PLO 2 (Lead organizational change and digital transformation)",
-        "SLO 3 supports PLO 1 (Implement AI-enabled solutions) and PLO 4 (Develop and communicate AI strategy)",
+        "SLO 3 supports PLO 1 (Implement AI-enabled solutions) and PLO 4 (Develop and communicate AI strategy)"
       ],
       enrollment: "Enrollment limited to students admitted to the baccalaureate degree program.",
-      facultyQualifications:
-        "Master's degree in business administration, business management, or management, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410).",
+      facultyQualifications: "Master's degree in business administration, business management, or management, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
     },
-    geTransfer: ["CSU Transfer Course: Yes"],
+    geTransfer: [
+      "CSU Transfer Course: Yes"
+    ],
     comparable: [
-      "California State University, Fullerton: MGMT 340 Organizational Behavior [CONFIRM]",
+      "California State University, Fullerton: MGMT 340 Organizational Behavior [CONFIRM]"
     ],
     masterDb: {
       top: "0506.00 - Business Management",
       soc: "11-1021 General and Operations Managers; 13-1111 Management Analysts",
-      fsa: "A35 - Business, B90 - Management",
+      fsa: "A35 - Business, B90 - Management"
     },
+    sampleEssay: "An organization introduced AI tools that doubled productivity on some teams, while other teams report lower morale and resistance. Analyze these different outcomes using organizational behavior theories of motivation, trust, and team dynamics, and recommend a leadership approach that would improve results across the organization. Support your recommendation with evidence from course readings."
   },
   {
     id: "hai-495a",
@@ -2827,17 +2838,18 @@ window.BDP_COURSES = [
       honors: "No",
       justification: "This is the first course in the two-semester capstone sequence of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students work with a real organizational partner to define a problem, research it, analyze feasibility and stakeholders, assess responsible-AI risks, and win approval for an implementation proposal that they carry out in HAI 495B."
     },
-    prerequisite: "Completion of HAI 350 F and HAI 370 F with a minimum grade of C, and admission into the baccalaureate degree program.",
+    prerequisite: "HAI 350 F and HAI 370 F with a grade of C or better.",
     prerequisiteType: "Sequential course within and across disciplines",
     prerequisiteJustification: "The capstone proposal requires students to assess organizational readiness, identify and prioritize AI use cases, and build an implementation plan (HAI 350 F), and to define scope, schedule, resources, risks, and stakeholder communication using project management methods (HAI 370 F); students without these skills cannot produce a feasible, approvable project proposal.",
-    prerequisiteGrade: "C",
+    prerequisiteGrade: "A grade of C or better",
     description: "In this capstone course, students identify a real-world organizational problem and develop a proposal for an AI-enabled solution. Emphasis is placed on research, feasibility, and project planning.",
     entrySkills: [
-      "Assess an organization's readiness for AI adoption across strategy, data, technology, people, and governance dimensions (HAI 350 F).",
-      "Identify and prioritize AI use cases using value, feasibility, and risk criteria (HAI 350 F).",
-      "Develop an AI implementation plan with goals, milestones, and success metrics aligned with organizational objectives (HAI 350 F).",
-      "Apply project management methods to define scope, build a work breakdown structure and schedule, and maintain a risk register for an AI initiative (HAI 370 F).",
-      "Prepare a stakeholder map and communication plan for a cross-functional AI project team (HAI 370 F)."
+      "Assess an organization's AI readiness across strategy, data, technology, talent, processes, culture, and governance using a structured maturity model. (HAI 350 F)",
+      "Prioritize a portfolio of AI use cases using criteria such as business value, feasibility, data availability, risk, and time to value. (HAI 350 F)",
+      "Design a phased implementation roadmap that sequences pilots, milestones, resources, dependencies, and decision gates. (HAI 350 F)",
+      "Develop a project charter, scope statement, and work breakdown structure for an AI-enabled solution. (HAI 370 F)",
+      "Identify, analyze, and prioritize technical, data, ethical, and organizational risks in a risk register with response strategies. (HAI 370 F)",
+      "Formulate a stakeholder analysis and communication plan that aligns technical and non-technical audiences. (HAI 370 F)"
     ],
     slos: [
       {
@@ -3043,13 +3055,13 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Saunders, Mark N. K., Philip Lewis, and Adrian Thornhill. Research Methods for Business Students, 9th ed. Pearson, 2023. Recommended",
-        "Booth, Wayne C., Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, and William T. FitzGerald. The Craft of Research, 5th ed. University of Chicago Press, 2024. Recommended",
+        "Saunders, Mark N. K., Philip Lewis, and Adrian Thornhill. Research Methods for Business Students, 9th ed. Hoboken, NJ: Pearson, 2023. Recommended",
+        "Booth, Wayne C., Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, and William T. FitzGerald. The Craft of Research, 5th ed. Chicago: University of Chicago Press, 2024. Recommended",
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource. Recommended"
       ],
       supplemental: [
-        "Coghlan, David. Doing Action Research in Your Own Organization, 5th ed. SAGE, 2019.",
-        "Liedtka, Jeanne, Tim Ogilvie, and Rachel Brozenske. The Designing for Growth Field Book: A Step-by-Step Project Guide, 2nd ed. Columbia Business School Publishing, 2019.",
+        "Coghlan, David. Doing Action Research in Your Own Organization, 5th ed. Thousand Oaks, CA: SAGE, 2019.",
+        "Liedtka, Jeanne, Tim Ogilvie, and Rachel Brozenske. The Designing for Growth Field Book: A Step-by-Step Project Guide, 2nd ed. New York: Columbia Business School Publishing, 2019.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI implementation."
       ]
     },
@@ -3106,7 +3118,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1082 Project Management Specialists; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management, M50 - Computer Information Systems"
-    }
+    },
+    sampleEssay: "Your capstone partner wants an AI solution that would require sharing customer records with a public generative AI tool. Evaluate the feasibility and responsible-AI risks of this request, and propose an alternative project design that still meets the partner's goal. Justify your recommendation to the partner using your feasibility analysis and the NIST AI Risk Management Framework."
   },
   {
     id: "hai-495b",
@@ -3133,16 +3146,17 @@ window.BDP_COURSES = [
       honors: "No",
       justification: "This is the culminating course of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students implement or pilot the AI-enabled solution approved in HAI 495A with a real organizational partner, measure its impact, document governance and change management, and present results to a professional panel, demonstrating every program learning outcome in an applied setting."
     },
-    prerequisite: "Completion of HAI 495A F with a minimum grade of C.",
+    prerequisite: "HAI 495A F with a grade of C or better.",
     prerequisiteType: "Sequential course within a discipline",
     prerequisiteJustification: "HAI 495B implements, evaluates, and presents the project proposal that the student researched, planned, and had approved by the instructor and organizational partner in HAI 495A F; students cannot begin implementation without an approved proposal, partner agreement, risk assessment, and success metrics.",
-    prerequisiteGrade: "C",
+    prerequisiteGrade: "A grade of C or better",
     description: "This culminating course requires students to design, implement, and present an AI-enabled solution to an organizational challenge. Students integrate technical, leadership, and ethical considerations.",
     entrySkills: [
-      "Define an organizational problem in measurable terms and justify its suitability for an AI-enabled solution (HAI 495A F).",
-      "Develop a structured project proposal with scope, methodology, timeline, and success metrics approved by an organizational partner (HAI 495A F).",
-      "Conduct feasibility and stakeholder analysis, including primary data collection under human-subjects safeguards (HAI 495A F).",
-      "Assess responsible-AI risks and propose mitigation and oversight measures using the NIST AI Risk Management Framework (HAI 495A F)."
+      "Define an organizational problem or opportunity in measurable terms and justify why it is appropriate for an AI-enabled solution. (HAI 495A F)",
+      "Assess responsible-AI risks, including bias, privacy, security, transparency, and workforce impact, using the NIST AI Risk Management Framework. (HAI 495A F)",
+      "Formulate project goals, scope, deliverables, and success metrics that can be measured during the HAI 495B implementation. (HAI 495A F)",
+      "Design a project methodology, work breakdown structure, timeline, and resource plan for building or piloting the solution. (HAI 495A F)",
+      "Develop a governance and change management approach that addresses data privacy, human oversight, and adoption by affected employees. (HAI 495A F)"
     ],
     slos: [
       {
@@ -3349,13 +3363,13 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
-        "Liedtka, Jeanne, Tim Ogilvie, and Rachel Brozenske. The Designing for Growth Field Book: A Step-by-Step Project Guide, 2nd ed. Columbia Business School Publishing, 2019. Recommended",
-        "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence. Harvard Business Review Press, 2023. Recommended",
+        "Liedtka, Jeanne, Tim Ogilvie, and Rachel Brozenske. The Designing for Growth Field Book: A Step-by-Step Project Guide, 2nd ed. New York: Columbia Business School Publishing, 2019. Recommended",
+        "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2023. Recommended",
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource. Recommended"
       ],
       supplemental: [
-        "Coghlan, David. Doing Action Research in Your Own Organization, 5th ed. SAGE, 2019.",
-        "Saunders, Mark N. K., Philip Lewis, and Adrian Thornhill. Research Methods for Business Students, 9th ed. Pearson, 2023.",
+        "Coghlan, David. Doing Action Research in Your Own Organization, 5th ed. Thousand Oaks, CA: SAGE, 2019.",
+        "Saunders, Mark N. K., Philip Lewis, and Adrian Thornhill. Research Methods for Business Students, 9th ed. Hoboken, NJ: Pearson, 2023.",
         "Current articles from Harvard Business Review, MIT Sloan Management Review, and industry reports on AI implementation and governance."
       ]
     },
@@ -3413,7 +3427,8 @@ window.BDP_COURSES = [
       top: "0501.00 - Business and Commerce, General",
       soc: "11-1021 General and Operations Managers; 13-1082 Project Management Specialists; 13-1111 Management Analysts",
       fsa: "A35 - Business, B90 - Management, M50 - Computer Information Systems"
-    }
+    },
+    sampleEssay: "Your pilot met its efficiency target, but user surveys show low trust and only partial adoption. Evaluate the evidence from your implementation, explain what the results mean for the partner organization, and recommend whether to scale, revise, or stop the solution. Justify your recommendation using your impact measures, stakeholder feedback, and governance documentation."
   },
 ];
 

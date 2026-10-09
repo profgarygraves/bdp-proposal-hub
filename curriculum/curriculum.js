@@ -93,7 +93,7 @@
     const p = c.proposal || {};
     const mdb = c.masterDb || {};
     const prereq = c.prerequisite || D.prerequisite;
-    const catalog = `Prerequisite: ${prereq} ${h.lectureTerm} hours lecture per term. ${c.description} (Degree Credit) (CSU)`;
+    const catalog = `Prerequisite: ${prereq} ${h.lectureTerm} hours lecture per term. ${c.description}`;
     const idx = COURSES.indexOf(c);
     const prev = COURSES[idx - 1];
     const next = COURSES[idx + 1];
@@ -157,7 +157,7 @@
           ["Class Size", c.classSize || D.classSize],
           ["Justification for Class Size", p.classSizeJustification || D.classSizeJustification],
           ["Honors Course", p.honors || "No"],
-          ["Justification for Proposal", p.justification],
+          ["Justification for Proposal", p.justification ? `NEW COURSE. Proposed for Distance Education (online and hybrid); Distance Education Addendum attached. Textbooks. Student Learning Outcomes. Proposed as degree applicable and transferable to CSU. ${p.justification}` : ""],
         ])
       )
     );
@@ -255,7 +255,7 @@
           : TODO
       )
     );
-    s.push(section(11, "Multiple Methods of Evaluation", list(c.evaluation)));
+    s.push(section(11, "Multiple Methods of Evaluation", `${list(c.evaluation)}${c.sampleEssay ? `<h3>Sample Essay Question</h3><p class="field-note">An example of an essay question requiring the student to think independently and write:</p><p>${txt(c.sampleEssay)}</p>` : ""}`));
     const tb = c.textbooks || {};
     s.push(
       section(
@@ -271,7 +271,8 @@
         13,
         "Assignments",
         `<h3>Writing Assignments and/or Proficiency Demonstration</h3>${list(as.writing)}
-         <h3>Assignments that Demonstrate Critical Thinking</h3><p class="field-note">Critical thinking verbs from the Fullerton College Bloom's Taxonomy List appear in bold.</p>${ctList(as.critical)}`
+         <h3>Assignments that Demonstrate Critical Thinking</h3><p class="field-note">Critical thinking verbs from the Fullerton College Bloom's Taxonomy List appear in bold.</p>${ctList(as.critical)}
+         <h3>Field Trips</h3><p>${txt(as.fieldTrips || (c.methods ? "None." : ""))}</p>`
       )
     );
     const lib = c.library || (c.methods ? D.library : null);
