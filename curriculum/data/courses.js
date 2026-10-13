@@ -44,8 +44,8 @@ window.BDP_COURSE_DEFAULTS = {
   classSize: "35",
   classSizeJustification:
     "Lecture/Discussion/Group Learning/Student Presentations (Fullerton/Cypress Class Size Planning & Resource Document): while the instructor does lecture, much of the class time focuses on discussion, group learning, and formal and informal student presentations.",
-  effectiveTerm: "Fall 2027 [CONFIRM: may move to Fall 2028]",
-  startYear: "2027",
+  effectiveTerm: "Fall 2028",
+  startYear: "2028",
   cb27: "A - Upper-division course",
 
   /* Distance Education Addendum (Fullerton College DEA, effective Fall 2023) */
@@ -1309,7 +1309,7 @@ window.BDP_COURSES = [
     block: "Upper Division Core",
     year: "Year 3",
     status: "draft",
-    updated: "2026-10-09",
+    updated: "2026-10-13",
     header: {
       ccApproved: "",
       dcccApproved: "",
@@ -1544,6 +1544,7 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
+        "De Cremer, David. The AI-Savvy Leader: Nine Ways to Take Back Control and Make AI Work, 1st ed. Boston, MA: Harvard Business Review Press, 2024. Recommended",
         "Lamarre, Eric, Kate Smaje, and Rodney Zemmel. Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI, 1st ed. Hoboken, NJ: Wiley, 2023. Recommended",
         "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2023. Recommended",
         "Agrawal, Ajay, Joshua Gans, and Avi Goldfarb. Power and Prediction: The Disruptive Economics of Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended"
@@ -1605,7 +1606,7 @@ window.BDP_COURSES = [
     block: "Upper Division Core",
     year: "Year 3",
     status: "draft",
-    updated: "2026-10-09",
+    updated: "2026-10-13",
     header: {
       ccApproved: "",
       dcccApproved: "",
@@ -1840,6 +1841,7 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
+        "Hendrycks, Dan. Introduction to AI Safety, Ethics, and Society, 1st ed. Boca Raton, FL: CRC Press, 2024. Open access (free). Recommended",
         "Lu, Qinghua, Liming Zhu, Jon Whittle, and Xiwei Xu. Responsible AI: Best Practices for Creating Trustworthy AI Systems, 1st ed. Boston: Addison-Wesley, 2023. Recommended",
         "Blackman, Reid. Ethical Machines: Your Concise Guide to Totally Unbiased, Transparent, and Respectful AI, 1st ed. Boston: Harvard Business Review Press, 2022. Recommended",
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource. Recommended"
@@ -1903,7 +1905,7 @@ window.BDP_COURSES = [
     block: "Upper Division Core",
     year: "Year 3",
     status: "draft",
-    updated: "2026-10-09",
+    updated: "2026-10-13",
     header: {
       ccApproved: "",
       dcccApproved: "",
@@ -2137,6 +2139,7 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
+        "Siegel, Eric. The AI Playbook: Mastering the Rare Art of Machine Learning Deployment, 1st ed. Cambridge, MA: MIT Press, 2024. Recommended",
         "Kloppenborg, Timothy J., Vittal S. Anantatmula, and Kathryn N. Wells. Contemporary Project Management: Plan-Driven and Agile Approaches, 5th ed. Boston: Cengage, 2023. Recommended",
         "Bratsis, Irene. AI Product Manager's Handbook, 2nd ed. Birmingham, UK: Packt Publishing, 2024. Recommended"
       ],
@@ -3411,7 +3414,7 @@ window.BDP_COURSES = [
     block: "Capstone",
     year: "Year 4",
     status: "draft",
-    updated: "2026-10-09",
+    updated: "2026-10-13",
     header: {
       ccApproved: "",
       dcccApproved: "",
@@ -3644,6 +3647,7 @@ window.BDP_COURSES = [
     ],
     textbooks: {
       recommended: [
+        "Siegel, Eric. The AI Playbook: Mastering the Rare Art of Machine Learning Deployment, 1st ed. Cambridge, MA: MIT Press, 2024. Recommended",
         "Liedtka, Jeanne, Tim Ogilvie, and Rachel Brozenske. The Designing for Growth Field Book: A Step-by-Step Project Guide, 2nd ed. New York: Columbia Business School Publishing, 2019. Recommended",
         "Davenport, Thomas H., and Nitin Mittal. All-in on AI: How Smart Companies Win Big with Artificial Intelligence, 1st ed. Boston: Harvard Business Review Press, 2023. Recommended",
         "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. U.S. Department of Commerce, 2023. Free resource. Recommended"

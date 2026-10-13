@@ -12,7 +12,7 @@ window.BDP_PATHWAY = {
   title: "Applied Human-AI Collaboration and Leadership",
   award: "Bachelor of Science",
   mapType: "Full-Time Map",
-  catalogYear: "2027-2028",
+  catalogYear: "2028-2029",
   totalUnits: "120",
   stages: [
     { label: "Fullerton College", sub: "AI in Business AS (Years 1-2)" },
