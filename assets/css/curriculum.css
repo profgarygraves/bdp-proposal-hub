@@ -60,7 +60,7 @@
 }
 
 .status-badge.is-not-started { background: #eef1f5; color: #4a5562; border-color: #d3dae3; }
-.status-badge.is-drafting { background: #e8f0fb; color: var(--sky); border-color: #c6d6ee; }
+.status-badge.is-draft { background: #e8f0fb; color: var(--sky); border-color: #c6d6ee; }
 .status-badge.is-in-review { background: #fff6cc; color: #6b5200; border-color: #f0dc7a; }
 .status-badge.is-revising { background: #fde8e7; color: #9b2c27; border-color: #f2c1be; }
 .status-badge.is-complete { background: #e5f4e8; color: #1f6b2a; border-color: #b9dfc0; }

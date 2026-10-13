@@ -14,7 +14,7 @@
 
   const STATUS = {
     "not-started": "Not started",
-    drafting: "Drafting",
+    draft: "Draft",
     "in-review": "In review",
     revising: "Revising",
     complete: "Complete",

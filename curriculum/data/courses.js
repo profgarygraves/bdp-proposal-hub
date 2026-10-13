@@ -4,8 +4,8 @@
 
   STATUS (Gary updates these to track progress):
     "not-started"  - only application data (title, description, CLOs) exists
-    "drafting"     - outline is being written
-    "in-review"    - full draft posted for faculty / dean / reviewer feedback
+    "draft"        - outline written; working draft, not yet sent for review
+    "in-review"    - draft shared with faculty / dean / reviewers for feedback
     "revising"     - feedback received, changes in progress
     "complete"     - outline approved by Gary; ready for the curriculum system
 
@@ -133,7 +133,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -428,7 +428,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -726,7 +726,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -1022,7 +1022,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -1308,7 +1308,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -1604,7 +1604,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -1902,7 +1902,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -2198,7 +2198,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division Core",
     year: "Year 3",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -2496,7 +2496,7 @@ window.BDP_COURSES = [
     units: 4,
     block: "Upper Division Core",
     year: "Year 4",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-13",
     header: {
       ccApproved: "",
@@ -2803,7 +2803,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Upper Division General Education",
     year: "Year 4",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-13",
     reviewNotes: "New upper-division general education course in mathematical concepts and quantitative reasoning (computation), added 2026-10-13 with the support of the Mathematics department. Together with ENGL 301 F and PHIL 361 F it completes the 9 units of upper-division general education required for California community college baccalaureate degrees. Confirm the GE designation with the Articulation Officer.",
     header: {
@@ -3107,7 +3107,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Capstone",
     year: "Year 4",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
@@ -3410,7 +3410,7 @@ window.BDP_COURSES = [
     units: 3,
     block: "Capstone",
     year: "Year 4",
-    status: "in-review",
+    status: "draft",
     updated: "2026-10-09",
     header: {
       ccApproved: "",
