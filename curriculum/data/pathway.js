@@ -69,20 +69,20 @@ window.BDP_PATHWAY = {
     {
       name: "Year 3 · Fall",
       courses: [
-        { options: ["HAI 300"], title: "Foundations of Human-AI Collaboration", tag: "Upper Division", units: 3, note: "Take in the first upper-division term." },
-        { options: ["HAI 310"], title: "Applied AI for Organizational Decision-Making", tag: "Upper Division", units: 3 },
-        { options: ["HAI 320"], title: "Data Analytics and Visualization for Leaders", tag: "Upper Division", units: 3 },
-        { options: ["HAI 340"], title: "Organizational Leadership in AI-Enabled Environments", tag: "Upper Division", units: 3 },
+        { options: ["BUS 300"], title: "Foundations of Human-AI Collaboration", tag: "Upper Division", units: 3, note: "Take in the first upper-division term." },
+        { options: ["BUS 310"], title: "Applied AI for Organizational Decision-Making", tag: "Upper Division", units: 3 },
+        { options: ["MATH 320"], title: "Data Analytics and Visualization for Leaders", tag: "Upper Division", units: 3 },
+        { options: ["BUS 340"], title: "Organizational Leadership in AI-Enabled Environments", tag: "Upper Division", units: 3 },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
       ],
     },
     {
       name: "Year 3 · Spring",
       courses: [
-        { options: ["HAI 350"], title: "AI Strategy and Implementation", tag: "Upper Division", units: 3, note: "Prerequisite for HAI 495A." },
-        { options: ["HAI 360"], title: "Ethics, Governance, and Responsible AI", tag: "Upper Division", units: 3 },
-        { options: ["HAI 370"], title: "Managing AI Projects and Cross-Functional Teams", tag: "Upper Division", units: 3, note: "Prerequisite for HAI 495A." },
-        { options: ["HAI 380"], title: "Human-AI Interaction and Experience Design", tag: "Upper Division", units: 3 },
+        { options: ["BUS 350"], title: "AI Strategy and Implementation", tag: "Upper Division", units: 3, note: "Prerequisite for BUS 495A." },
+        { options: ["BUS 360"], title: "Ethics, Governance, and Responsible AI", tag: "Upper Division", units: 3 },
+        { options: ["CIS 370"], title: "Managing AI Projects and Cross-Functional Teams", tag: "Upper Division", units: 3, note: "Prerequisite for BUS 495A." },
+        { options: ["BUS 380"], title: "Human-AI Interaction and Experience Design", tag: "Upper Division", units: 3 },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
       ],
       milestones: [
@@ -92,7 +92,7 @@ window.BDP_PATHWAY = {
     {
       name: "Year 4 · Fall",
       courses: [
-        { options: ["HAI 495A"], title: "AI Implementation Capstone I", tag: "Capstone", units: 3 },
+        { options: ["BUS 495A"], title: "AI Implementation Capstone I", tag: "Capstone", units: 3 },
         { options: ["BUS 371"], title: "Advanced Organizational Behavior and Leadership in AI-Enabled Environments", tag: "Upper Division", units: 4 },
         { options: ["ENGL 301 F"], title: "Technical Writing", tag: "Upper Division", units: 3, note: "Upper-division general education." },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
@@ -105,7 +105,7 @@ window.BDP_PATHWAY = {
     {
       name: "Year 4 · Spring",
       courses: [
-        { options: ["HAI 495B"], title: "AI Implementation Capstone II", tag: "Capstone", units: 3 },
+        { options: ["BUS 495B"], title: "AI Implementation Capstone II", tag: "Capstone", units: 3 },
         { options: ["PHIL 361 F"], title: "Technology and Ethics", tag: "Upper Division", units: 3, note: "Upper-division general education." },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },

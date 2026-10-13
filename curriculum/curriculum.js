@@ -145,7 +145,13 @@
   /* ---------------- Course outline page ---------------- */
   function renderCourse(root) {
     const params = new URLSearchParams(location.search);
-    const id = (params.get("id") || "").toLowerCase();
+    let id = (params.get("id") || "").toLowerCase();
+    /* Old links used the retired HAI prefix (hai-320, hai-370, hai-300...). */
+    const LEGACY = { "hai-320": "math-320", "hai-370": "cis-370" };
+    if (id.startsWith("hai-")) {
+      id = LEGACY[id] || id.replace(/^hai-/, "bus-");
+      history.replaceState(null, "", `course.html?id=${id}${location.hash}`);
+    }
     const c = COURSES.find((x) => x.id === id);
 
     if (!c) {
@@ -211,8 +217,8 @@
         2,
         "Basic Course Information",
         fields([
-          ["Division", D.division],
-          ["Department/Subject Area", D.department],
+          ["Division", c.division || D.division],
+          ["Department/Subject Area", c.department || D.department],
           ["Course Prefix", c.prefix],
           ["Course Number", `${c.number} F`],
           ["Course Title", c.title],
@@ -393,8 +399,8 @@
         20,
         "Master Database",
         fields([
-          ["Division Code", D.divisionCode],
-          ["Department Code", D.departmentCode],
+          ["Division Code", c.divisionCode || D.divisionCode],
+          ["Department Code", c.departmentCode || D.departmentCode],
           ["Units", Number(c.units).toFixed(2)],
           ["Class Size", c.classSize || D.classSize],
           ["Open Entry/Open Exit", D.openEntry],

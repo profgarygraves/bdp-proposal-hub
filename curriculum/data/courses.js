@@ -126,8 +126,8 @@ window.BDP_COURSES = [
 
   /* ------------------------------------------------------------------ */
     {
-    id: "hai-300",
-    prefix: "HAI",
+    id: "bus-300",
+    prefix: "BUS",
     number: "300",
     title: "Foundations of Human-AI Collaboration",
     units: 3,
@@ -147,7 +147,7 @@ window.BDP_COURSES = [
     proposal: {
       startSemester: "Fall",
       honors: "No",
-      justification: "This is an upper division core course in the Applied Human-AI Collaboration and Leadership baccalaureate program and the gateway course taken first in Year 3. It establishes the shared upper-division vocabulary, analytical methods, and workflow design skills that later HAI courses in decision-making, analytics, leadership, strategy, governance, project management, and interaction design build upon."
+      justification: "This is an upper division core course in the Applied Human-AI Collaboration and Leadership baccalaureate program and the gateway course taken first in Year 3. It establishes the shared upper-division vocabulary, analytical methods, and workflow design skills that later program courses in decision-making, analytics, leadership, strategy, governance, project management, and interaction design build upon."
     },
     description: "This course introduces advanced concepts in human-AI collaboration, focusing on how artificial intelligence systems augment human capabilities in organizational settings. Students examine AI capabilities, limitations, and the design of effective human-AI workflows across industries.",
     entrySkills: [
@@ -205,7 +205,7 @@ window.BDP_COURSES = [
           "Defining human-AI collaboration in organizations",
           "From lower-division AI tool use to upper-division workflow analysis",
           "Industry adoption patterns and current evidence",
-          "Course roadmap and the HAI program learning outcomes"
+          "Course roadmap and the program learning outcomes"
         ]
       },
       {
@@ -331,7 +331,7 @@ window.BDP_COURSES = [
           "Transparency and disclosure of AI use",
           "Organizational AI use policies",
           "Accessibility and inclusion in workflow design",
-          "Overview of governance topics developed in later HAI courses"
+          "Overview of governance topics developed in later program courses"
         ]
       },
       {
@@ -399,7 +399,7 @@ window.BDP_COURSES = [
         "BUS 108 F Living in an Online World",
         "BUS 255 F Introduction to Business and Data Analytics"
       ],
-      distinction: "BUS 256 F and BUS 257 F teach students to write prompts and use AI tools for individual business tasks at the lower-division level. HAI 300 moves from individual tool use to the analysis and redesign of organizational workflows: students decompose business processes, test AI tools against defined quality criteria, evaluate capability and limitation claims against evidence, and design collaboration models with task allocation, review checkpoints, and measured outcomes.",
+      distinction: "BUS 256 F and BUS 257 F teach students to write prompts and use AI tools for individual business tasks at the lower-division level. BUS 300 moves from individual tool use to the analysis and redesign of organizational workflows: students decompose business processes, test AI tools against defined quality criteria, evaluate capability and limitation claims against evidence, and design collaboration models with task allocation, review checkpoints, and measured outcomes.",
       criticalThinking: "Demonstrated through writing (workflow analysis paper and AI tool evaluation summary), computation (baseline and pilot measures of time, cost, and error rates), and oral communication (team workflow redesign presentation).",
       research: "Students locate and evaluate peer-reviewed research, industry reports, and vendor documentation through library databases and conduct structured testing of AI tools for the workflow analysis paper and team project.",
       ploAlignment: [
@@ -421,8 +421,8 @@ window.BDP_COURSES = [
     sampleEssay: "A regional bank plans to let a generative AI assistant draft responses to customer loan inquiries, with staff reviewing each draft before it is sent. Analyze which parts of this workflow should remain human, which can be automated, and which should be shared. Justify your design using course frameworks on task allocation, AI limitations, and appropriate reliance, and explain how you would test whether the design works."
   },
   {
-    id: "hai-310",
-    prefix: "HAI",
+    id: "bus-310",
+    prefix: "BUS",
     number: "310",
     title: "Applied AI for Organizational Decision-Making",
     units: 3,
@@ -693,7 +693,7 @@ window.BDP_COURSES = [
         "BUS 257 F AI Applications for Business",
         "CIS 258 F Applied AI: Machine Learning, Deep Learning and NLP"
       ],
-      distinction: "BUS 255 F introduces descriptive analytics and STAT C1000 introduces probability and statistical inference, while CIS 258 F introduces how machine learning models are built. HAI 310 requires students to use that knowledge to interpret AI model outputs as decision inputs, quantify the costs of errors and decision thresholds, evaluate competing AI tools against organizational criteria, and integrate AI-driven insights into structured decision frameworks that they must document and defend.",
+      distinction: "BUS 255 F introduces descriptive analytics and STAT C1000 introduces probability and statistical inference, while CIS 258 F introduces how machine learning models are built. BUS 310 requires students to use that knowledge to interpret AI model outputs as decision inputs, quantify the costs of errors and decision thresholds, evaluate competing AI tools against organizational criteria, and integrate AI-driven insights into structured decision frameworks that they must document and defend.",
       criticalThinking: "Demonstrated through writing (decision analysis paper and decision brief), computation (expected value, decision thresholds, error costs, and weighted scoring), and oral communication (team decision presentation defended before a panel).",
       research: "Students locate and evaluate peer-reviewed research, industry reports, and AI tool documentation through library databases for the decision analysis paper and team project.",
       ploAlignment: [
@@ -715,8 +715,12 @@ window.BDP_COURSES = [
     sampleEssay: "An AI model predicts which customers are likely to cancel their subscriptions, and leadership wants to offer discounts to everyone above a 60 percent risk score. Evaluate this decision rule using expected-value reasoning and the costs of false positives and false negatives. Recommend a decision threshold and process, and explain the human judgment that should remain in the decision."
   },
   {
-    id: "hai-320",
-    prefix: "HAI",
+    id: "math-320",
+    prefix: "MATH",
+    division: "FC Mathematics & Computer Science [CONFIRM exact division name]",
+    department: "Mathematics",
+    divisionCode: "[CONFIRM Math & Computer Science division code]",
+    departmentCode: "[CONFIRM Mathematics department code]",
     number: "320",
     title: "Data Analytics and Visualization for Leaders",
     units: 3,
@@ -989,7 +993,7 @@ window.BDP_COURSES = [
         "CIS 201 F Introduction to Python Programming",
         "BUS 257 F AI Applications for Business"
       ],
-      distinction: "BUS 255 F introduces business analytics concepts and tools, CIS 142 F introduces database design and queries, and STAT C1000 introduces statistical methods. HAI 320 requires students to integrate these skills on messy organizational datasets, interpret predictive and AI model outputs, audit data quality for AI systems, build interactive dashboards, and defend data-based recommendations to leadership audiences. Unlike HAI 310, which focuses on decision-making frameworks, HAI 320 focuses on the analysis, visualization, and communication of data itself.",
+      distinction: "BUS 255 F introduces business analytics concepts and tools, CIS 142 F introduces database design and queries, and STAT C1000 introduces statistical methods. MATH 320 requires students to integrate these skills on messy organizational datasets, interpret predictive and AI model outputs, audit data quality for AI systems, build interactive dashboards, and defend data-based recommendations to leadership audiences. Unlike BUS 310, which focuses on decision-making frameworks, MATH 320 focuses on the analysis, visualization, and communication of data itself.",
       criticalThinking: "Demonstrated through computation (data preparation, statistical analysis, and dashboard construction), writing (data quality audit paper and executive data brief), and oral communication (dashboard presentation defended before a panel).",
       research: "Students locate and evaluate public datasets, data documentation, and peer-reviewed or industry research on data quality and visualization through library databases and open data portals.",
       ploAlignment: [
@@ -998,21 +1002,21 @@ window.BDP_COURSES = [
         "SLO 3 supports PLO 3 (Govern responsible AI) and PLO 1 (Implement AI-enabled solutions)"
       ],
       enrollment: "Enrollment limited to students admitted to the baccalaureate degree program.",
-      facultyQualifications: "Master's degree in business administration, business management, management, or computer information systems, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
+      facultyQualifications: "Master's degree in mathematics or applied mathematics, or a bachelor's degree in either of the above and a master's degree in statistics, physics, or mathematics education, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
     ],
     masterDb: {
-      top: "0501.00 - Business and Commerce, General",
+      top: "0501.00 - Business and Commerce, General [CONFIRM: MATH courses usually carry 1701.00 Mathematics, General, which is not an occupational TOP code and would change the SAM and Course Classification codes]",
       soc: "13-1111 Management Analysts; 11-1021 General and Operations Managers",
-      fsa: "A35 - Business, B90 - Management, M50 - Computer Information Systems"
+      fsa: "Mathematics [CONFIRM FSA code]"
     },
     sampleEssay: "You are given a dashboard showing that sales rose 20 percent after an AI pricing tool was introduced. Critique the dashboard and the claim: identify at least three data quality, statistical, or visualization problems that could make the conclusion misleading, and propose a revised analysis and visualization that would give leaders a defensible answer."
   },
   {
-    id: "hai-340",
-    prefix: "HAI",
+    id: "bus-340",
+    prefix: "BUS",
     number: "340",
     title: "Organizational Leadership in AI-Enabled Environments",
     units: 3,
@@ -1275,7 +1279,7 @@ window.BDP_COURSES = [
         "BUS 257 F AI Applications for Business",
         "BUS 108 F Living in an Online World"
       ],
-      distinction: "BUS 271 F introduces leadership theory and business ethics, and BUS 256 F and BUS 257 F introduce AI tools and business applications. HAI 340 requires students to apply that knowledge to the operational work of leading AI adoption: analyzing jobs at the task level, redesigning human-AI roles, planning skills-based reskilling programs, and running change initiatives with measurable adoption goals. HAI 340 is distinct from BUS 371, which examines organizational behavior theory (motivation, perception, teams, culture, and structure); HAI 340 takes a practitioner and implementation focus on the leader's workforce and change tasks. It also differs from HAI 350 (enterprise AI strategy) and HAI 370 (project management of AI initiatives).",
+      distinction: "BUS 271 F introduces leadership theory and business ethics, and BUS 256 F and BUS 257 F introduce AI tools and business applications. BUS 340 requires students to apply that knowledge to the operational work of leading AI adoption: analyzing jobs at the task level, redesigning human-AI roles, planning skills-based reskilling programs, and running change initiatives with measurable adoption goals. BUS 340 is distinct from BUS 371, which examines organizational behavior theory (motivation, perception, teams, culture, and structure); BUS 340 takes a practitioner and implementation focus on the leader's workforce and change tasks. It also differs from BUS 350 (enterprise AI strategy) and CIS 370 (project management of AI initiatives).",
       criticalThinking: "Demonstrated through writing (task analysis memo and change initiative plan) and oral communication (team workforce adaptation plan defended before a panel).",
       research: "Students locate and evaluate peer-reviewed research, labor market data, and industry reports on AI and the workforce through library databases for the change initiative plan and team project.",
       ploAlignment: [
@@ -1297,8 +1301,8 @@ window.BDP_COURSES = [
     sampleEssay: "A hospital system will introduce AI scheduling and documentation tools that change the daily work of 400 administrative employees. Develop a leadership strategy for the first year that addresses role redesign, reskilling, employee concerns, and communication. Justify each element with course concepts and explain how you would measure whether the transition succeeded."
   },
   {
-    id: "hai-350",
-    prefix: "HAI",
+    id: "bus-350",
+    prefix: "BUS",
     number: "350",
     title: "AI Strategy and Implementation",
     units: 3,
@@ -1571,7 +1575,7 @@ window.BDP_COURSES = [
         "CIS 258 F Applied AI: Machine Learning, Deep Learning and NLP",
         "STAT C1000 Introduction to Statistics"
       ],
-      distinction: "BUS 257 F introduces how AI tools are applied to individual business functions, and BUS 256 F develops hands-on skill with AI tools and prompting. HAI 350 moves from tool use to the organization level: students assess enterprise readiness, prioritize a portfolio of use cases, build financial business cases, make and defend sourcing decisions, and design measured implementation and scaling plans. Within the program, HAI 350 is distinct from HAI 300 (workflow design), HAI 340 (leadership and workforce), HAI 360 (governance and compliance), and HAI 370 (project execution and team management) because its focus is strategic selection, investment, and value realization.",
+      distinction: "BUS 257 F introduces how AI tools are applied to individual business functions, and BUS 256 F develops hands-on skill with AI tools and prompting. BUS 350 moves from tool use to the organization level: students assess enterprise readiness, prioritize a portfolio of use cases, build financial business cases, make and defend sourcing decisions, and design measured implementation and scaling plans. Within the program, BUS 350 is distinct from BUS 300 (workflow design), BUS 340 (leadership and workforce), BUS 360 (governance and compliance), and CIS 370 (project execution and team management) because its focus is strategic selection, investment, and value realization.",
       criticalThinking: "Demonstrated through writing (readiness assessment report, use-case prioritization memo, and business case), computation (ROI, total cost of ownership, and sensitivity analysis), and oral communication (team strategy presentation defended before a panel).",
       research: "Students locate and evaluate industry reports, company disclosures, and peer-reviewed research through library databases to support the readiness assessment, business case, and team project.",
       ploAlignment: [
@@ -1593,8 +1597,8 @@ window.BDP_COURSES = [
     sampleEssay: "A mid-sized manufacturer has identified twelve possible AI use cases but can fund only three this year. Formulate the criteria you would use to prioritize them, apply those criteria to three contrasting example use cases, and justify a phased roadmap that balances quick value, feasibility, risk, and long-term strategy."
   },
   {
-    id: "hai-360",
-    prefix: "HAI",
+    id: "bus-360",
+    prefix: "BUS",
     number: "360",
     title: "Ethics, Governance, and Responsible AI",
     units: 3,
@@ -1867,7 +1871,7 @@ window.BDP_COURSES = [
         "CIS 258 F Applied AI: Machine Learning, Deep Learning and NLP",
         "STAT C1000 Introduction to Statistics"
       ],
-      distinction: "BUS 271 F introduces business ethics and ethical decision-making at the lower-division level, and PHIL 361 F Technology and Ethics, also required in the program, examines ethical theories such as deontology and teleology as applied to technology. HAI 360 is an applied governance and compliance course rather than a course in ethical theory: students apply AI risk management frameworks such as the NIST AI RMF and ISO/IEC 42001, analyze the EU AI Act and U.S. and California AI laws and regulations, conduct bias audits using statistical fairness metrics, prepare model documentation, and design organizational AI policies and accountability structures. Within the program, HAI 360 is distinct from HAI 350, which addresses strategy and investment decisions, by focusing on the controls and obligations that govern AI once it is adopted.",
+      distinction: "BUS 271 F introduces business ethics and ethical decision-making at the lower-division level, and PHIL 361 F Technology and Ethics, also required in the program, examines ethical theories such as deontology and teleology as applied to technology. BUS 360 is an applied governance and compliance course rather than a course in ethical theory: students apply AI risk management frameworks such as the NIST AI RMF and ISO/IEC 42001, analyze the EU AI Act and U.S. and California AI laws and regulations, conduct bias audits using statistical fairness metrics, prepare model documentation, and design organizational AI policies and accountability structures. Within the program, BUS 360 is distinct from BUS 350, which addresses strategy and investment decisions, by focusing on the controls and obligations that govern AI once it is adopted.",
       criticalThinking: "Demonstrated through writing (risk assessment report, bias audit report, and regulatory comparison), computation (fairness metrics in the bias audit), and oral communication (team governance program defended before a panel).",
       research: "Students locate and evaluate primary regulatory texts, standards, agency guidance, peer-reviewed research, and legal analyses through library databases and official government sources for the regulatory comparison and team project.",
       ploAlignment: [
@@ -1889,8 +1893,10 @@ window.BDP_COURSES = [
     sampleEssay: "A company plans to use an AI tool to screen job applicants in California and in the European Union. Evaluate the ethical, legal, and governance risks of this plan, and design a governance approach that includes risk assessment, bias testing, documentation, human oversight, and accountability. Defend which risks you would treat as unacceptable and why."
   },
   {
-    id: "hai-370",
-    prefix: "HAI",
+    id: "cis-370",
+    prefix: "CIS",
+    department: "Computer Information Systems",
+    departmentCode: "[CONFIRM CIS department code]",
     number: "370",
     title: "Managing AI Projects and Cross-Functional Teams",
     units: 3,
@@ -2163,7 +2169,7 @@ window.BDP_COURSES = [
         "BUS 255 F Introduction to Business and Data Analytics",
         "BUS 271 F Leadership and Business Ethics"
       ],
-      distinction: "BUS 257 F introduces business applications of AI tools and CIS 258 F introduces how machine learning models are built and evaluated. Neither course addresses how to plan, staff, schedule, budget, and control an AI initiative. HAI 370 requires students to apply formal project management methodologies and the AI project lifecycle to complete initiatives, manage data and model risk, coordinate technical and business team members, and evaluate project performance with quantitative metrics.",
+      distinction: "BUS 257 F introduces business applications of AI tools and CIS 258 F introduces how machine learning models are built and evaluated. Neither course addresses how to plan, staff, schedule, budget, and control an AI initiative. CIS 370 requires students to apply formal project management methodologies and the AI project lifecycle to complete initiatives, manage data and model risk, coordinate technical and business team members, and evaluate project performance with quantitative metrics.",
       criticalThinking: "Demonstrated through writing (project charter, risk assessment, and project evaluation paper), computation (schedule, budget, variance, and agile performance metrics), and oral communication (sprint review presentation to a mixed technical and executive audience).",
       research: "Students locate and evaluate peer-reviewed research, industry reports, and published AI project case studies through library databases for the project evaluation paper.",
       ploAlignment: [
@@ -2172,7 +2178,7 @@ window.BDP_COURSES = [
         "SLO 3 supports PLO 1 (Implement AI-enabled solutions) and PLO 4 (Develop and communicate AI strategy)"
       ],
       enrollment: "Enrollment limited to students admitted to the baccalaureate degree program.",
-      facultyQualifications: "Master's degree in business administration, business management, management, or computer information systems, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
+      facultyQualifications: "Master's degree in computer information systems, computer science, business administration, business management, or management, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
     },
     geTransfer: [
       "CSU Transfer Course: Yes"
@@ -2180,13 +2186,13 @@ window.BDP_COURSES = [
     masterDb: {
       top: "0501.00 - Business and Commerce, General",
       soc: "13-1082 Project Management Specialists; 11-1021 General and Operations Managers",
-      fsa: "A35 - Business, B90 - Management"
+      fsa: "M50 - Computer Information Systems, A35 - Business"
     },
     sampleEssay: "An AI chatbot project is three months behind schedule because the training data was incomplete and the business sponsor keeps adding requirements. Analyze the root causes of the problems using project management concepts, and propose a recovery plan that addresses scope, schedule, data dependencies, and stakeholder communication."
   },
   {
-    id: "hai-380",
-    prefix: "HAI",
+    id: "bus-380",
+    prefix: "BUS",
     number: "380",
     title: "Human-AI Interaction and Experience Design",
     units: 3,
@@ -2461,7 +2467,7 @@ window.BDP_COURSES = [
         "CIS 258 F Applied AI: Machine Learning, Deep Learning and NLP",
         "STAT C1000 Introduction to Statistics"
       ],
-      distinction: "BUS 256 F and BUS 257 F teach students to use AI tools and write effective prompts as end users. HAI 380 shifts the student into the designer's role: students conduct user research, design how people and AI systems share tasks, build interactive prototypes, and evaluate usability and trust with formal methods and quantitative usability metrics. The course applies statistics from STAT C1000 to interpret usability test data and applies knowledge of model behavior from CIS 258 F to design for errors and uncertainty.",
+      distinction: "BUS 256 F and BUS 257 F teach students to use AI tools and write effective prompts as end users. BUS 380 shifts the student into the designer's role: students conduct user research, design how people and AI systems share tasks, build interactive prototypes, and evaluate usability and trust with formal methods and quantitative usability metrics. The course applies statistics from STAT C1000 to interpret usability test data and applies knowledge of model behavior from CIS 258 F to design for errors and uncertainty.",
       criticalThinking: "Demonstrated through writing (design critique, case analysis paper, and usability test report), computation (task success rates, time on task, and System Usability Scale scores), and oral communication (team design presentation defended before stakeholders).",
       research: "Students locate and evaluate peer-reviewed human-computer interaction research and industry reports through library databases, and conduct primary user research through interviews and usability testing.",
       ploAlignment: [
@@ -2786,8 +2792,8 @@ window.BDP_COURSES = [
     sampleEssay: "An organization introduced AI tools that doubled productivity on some teams, while other teams report lower morale and resistance. Analyze these different outcomes using organizational behavior theories of motivation, trust, and team dynamics, and recommend a leadership approach that would improve results across the organization. Support your recommendation with evidence from course readings."
   },
   {
-    id: "hai-495a",
-    prefix: "HAI",
+    id: "bus-495a",
+    prefix: "BUS",
     number: "495A",
     title: "AI Implementation Capstone I",
     units: 3,
@@ -2808,20 +2814,20 @@ window.BDP_COURSES = [
       startYear: "",
       startSemester: "Fall",
       honors: "No",
-      justification: "This is the first course in the two-semester capstone sequence of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students work with a real organizational partner to define a problem, research it, analyze feasibility and stakeholders, assess responsible-AI risks, and win approval for an implementation proposal that they carry out in HAI 495B."
+      justification: "This is the first course in the two-semester capstone sequence of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students work with a real organizational partner to define a problem, research it, analyze feasibility and stakeholders, assess responsible-AI risks, and win approval for an implementation proposal that they carry out in BUS 495B."
     },
-    prerequisite: "HAI 350 F and HAI 370 F with a grade of C or better.",
+    prerequisite: "BUS 350 F and CIS 370 F with a grade of C or better.",
     prerequisiteType: "Sequential course within and across disciplines",
-    prerequisiteJustification: "The capstone proposal requires students to assess organizational readiness, identify and prioritize AI use cases, and build an implementation plan (HAI 350 F), and to define scope, schedule, resources, risks, and stakeholder communication using project management methods (HAI 370 F); students without these skills cannot produce a feasible, approvable project proposal.",
+    prerequisiteJustification: "The capstone proposal requires students to assess organizational readiness, identify and prioritize AI use cases, and build an implementation plan (BUS 350 F), and to define scope, schedule, resources, risks, and stakeholder communication using project management methods (CIS 370 F); students without these skills cannot produce a feasible, approvable project proposal.",
     prerequisiteGrade: "A grade of C or better",
     description: "In this capstone course, students identify a real-world organizational problem and develop a proposal for an AI-enabled solution. Emphasis is placed on research, feasibility, and project planning.",
     entrySkills: [
-      "Assess an organization's AI readiness across strategy, data, technology, talent, processes, culture, and governance using a structured maturity model. (HAI 350 F)",
-      "Prioritize a portfolio of AI use cases using criteria such as business value, feasibility, data availability, risk, and time to value. (HAI 350 F)",
-      "Design a phased implementation roadmap that sequences pilots, milestones, resources, dependencies, and decision gates. (HAI 350 F)",
-      "Develop a project charter, scope statement, and work breakdown structure for an AI-enabled solution. (HAI 370 F)",
-      "Identify, analyze, and prioritize technical, data, ethical, and organizational risks in a risk register with response strategies. (HAI 370 F)",
-      "Formulate a stakeholder analysis and communication plan that aligns technical and non-technical audiences. (HAI 370 F)"
+      "Assess an organization's AI readiness across strategy, data, technology, talent, processes, culture, and governance using a structured maturity model. (BUS 350 F)",
+      "Prioritize a portfolio of AI use cases using criteria such as business value, feasibility, data availability, risk, and time to value. (BUS 350 F)",
+      "Design a phased implementation roadmap that sequences pilots, milestones, resources, dependencies, and decision gates. (BUS 350 F)",
+      "Develop a project charter, scope statement, and work breakdown structure for an AI-enabled solution. (CIS 370 F)",
+      "Identify, analyze, and prioritize technical, data, ethical, and organizational risks in a risk register with response strategies. (CIS 370 F)",
+      "Formulate a stakeholder analysis and communication plan that aligns technical and non-technical audiences. (CIS 370 F)"
     ],
     slos: [
       {
@@ -2862,7 +2868,7 @@ window.BDP_COURSES = [
       "Conduct a stakeholder analysis that identifies interests, influence, and likely resistance, and gather stakeholder input through interviews or surveys conducted under human-subjects safeguards.",
       "Evaluate the technical, operational, financial, and ethical feasibility of alternative AI-enabled solutions, including low-code, no-code, and generative AI options.",
       "Assess responsible-AI risks, including bias, privacy, security, transparency, and workforce impact, using the NIST AI Risk Management Framework.",
-      "Formulate project goals, scope, deliverables, and success metrics that can be measured during the HAI 495B implementation.",
+      "Formulate project goals, scope, deliverables, and success metrics that can be measured during the BUS 495B implementation.",
       "Design a project methodology, work breakdown structure, timeline, and resource plan for building or piloting the solution.",
       "Develop a governance and change management approach that addresses data privacy, human oversight, and adoption by affected employees.",
       "Prepare a structured capstone proposal of approximately 3,000 to 4,000 words that integrates research, analysis, and planning.",
@@ -2972,7 +2978,7 @@ window.BDP_COURSES = [
         topic: "Project methodology and planning",
         items: [
           "Agile, iterative, and hybrid approaches for AI projects",
-          "Work breakdown structure and timeline for HAI 495B",
+          "Work breakdown structure and timeline for BUS 495B",
           "Resource, tool, and budget planning",
           "Risk register and contingency planning"
         ]
@@ -3001,7 +3007,7 @@ window.BDP_COURSES = [
           "Designing a persuasive proposal presentation",
           "Responding to questions and objections",
           "Partner and instructor approval process",
-          "Reflection on leadership growth and planning for HAI 495B"
+          "Reflection on leadership growth and planning for BUS 495B"
         ]
       }
     ],
@@ -3053,14 +3059,14 @@ window.BDP_COURSES = [
     },
     rigor: {
       buildsOn: [
-        "HAI 300 F Foundations of Human-AI Collaboration",
-        "HAI 310 F Applied AI for Organizational Decision-Making",
-        "HAI 320 F Data Analytics and Visualization for Leaders",
-        "HAI 340 F Organizational Leadership in AI-Enabled Environments",
-        "HAI 350 F AI Strategy and Implementation",
-        "HAI 360 F Ethics, Governance, and Responsible AI",
-        "HAI 370 F Managing AI Projects and Cross-Functional Teams",
-        "HAI 380 F Human-AI Interaction and Experience Design",
+        "BUS 300 F Foundations of Human-AI Collaboration",
+        "BUS 310 F Applied AI for Organizational Decision-Making",
+        "MATH 320 F Data Analytics and Visualization for Leaders",
+        "BUS 340 F Organizational Leadership in AI-Enabled Environments",
+        "BUS 350 F AI Strategy and Implementation",
+        "BUS 360 F Ethics, Governance, and Responsible AI",
+        "CIS 370 F Managing AI Projects and Cross-Functional Teams",
+        "BUS 380 F Human-AI Interaction and Experience Design",
         "BUS 371 F Advanced Organizational Behavior and Leadership in AI-Enabled Environments",
         "ENGL 301 F Technical Writing",
         "BUS 256 F Artificial Intelligence and Prompt Engineering for Business",
@@ -3068,7 +3074,7 @@ window.BDP_COURSES = [
         "BUS 255 F Introduction to Business and Data Analytics",
         "BUS 271 F Leadership and Business Ethics"
       ],
-      distinction: "Lower-division courses such as BUS 256 F, BUS 257 F, BUS 255 F, and BUS 271 F introduce AI tools, analytics, and leadership ethics through instructor-defined exercises. Upper-division HAI courses develop each competency separately. HAI 495A requires students to integrate the full HAI core in a self-directed project with a real organization: they define an unstructured problem, conduct original stakeholder research, synthesize scholarly and industry literature, evaluate feasibility and responsible-AI risk, and produce a professional proposal that a partner organization must approve before implementation.",
+      distinction: "Lower-division courses such as BUS 256 F, BUS 257 F, BUS 255 F, and BUS 271 F introduce AI tools, analytics, and leadership ethics through instructor-defined exercises. Upper-division core courses develop each competency separately. BUS 495A requires students to integrate the full upper-division core in a self-directed project with a real organization: they define an unstructured problem, conduct original stakeholder research, synthesize scholarly and industry literature, evaluate feasibility and responsible-AI risk, and produce a professional proposal that a partner organization must approve before implementation.",
       criticalThinking: "Demonstrated through writing (literature and industry review, feasibility and risk analysis, and a 3,000 to 4,000 word capstone proposal) and oral communication (proposal presentation defended before the instructor and organizational partner).",
       research: "Students locate and evaluate peer-reviewed research and industry reports through library databases for the literature and industry review, and collect primary data through stakeholder interviews or surveys under human-subjects safeguards, including informed consent and institutional review where applicable.",
       ploAlignment: [
@@ -3090,8 +3096,8 @@ window.BDP_COURSES = [
     sampleEssay: "Your capstone partner wants an AI solution that would require sharing customer records with a public generative AI tool. Evaluate the feasibility and responsible-AI risks of this request, and propose an alternative project design that still meets the partner's goal. Justify your recommendation to the partner using your feasibility analysis and the NIST AI Risk Management Framework."
   },
   {
-    id: "hai-495b",
-    prefix: "HAI",
+    id: "bus-495b",
+    prefix: "BUS",
     number: "495B",
     title: "AI Implementation Capstone II",
     units: 3,
@@ -3112,19 +3118,19 @@ window.BDP_COURSES = [
       startYear: "",
       startSemester: "Spring",
       honors: "No",
-      justification: "This is the culminating course of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students implement or pilot the AI-enabled solution approved in HAI 495A with a real organizational partner, measure its impact, document governance and change management, and present results to a professional panel, demonstrating every program learning outcome in an applied setting."
+      justification: "This is the culminating course of the Applied Human-AI Collaboration and Leadership baccalaureate program. Students implement or pilot the AI-enabled solution approved in BUS 495A with a real organizational partner, measure its impact, document governance and change management, and present results to a professional panel, demonstrating every program learning outcome in an applied setting."
     },
-    prerequisite: "HAI 495A F with a grade of C or better.",
+    prerequisite: "BUS 495A F with a grade of C or better.",
     prerequisiteType: "Sequential course within a discipline",
-    prerequisiteJustification: "HAI 495B implements, evaluates, and presents the project proposal that the student researched, planned, and had approved by the instructor and organizational partner in HAI 495A F; students cannot begin implementation without an approved proposal, partner agreement, risk assessment, and success metrics.",
+    prerequisiteJustification: "BUS 495B implements, evaluates, and presents the project proposal that the student researched, planned, and had approved by the instructor and organizational partner in BUS 495A F; students cannot begin implementation without an approved proposal, partner agreement, risk assessment, and success metrics.",
     prerequisiteGrade: "A grade of C or better",
     description: "This culminating course requires students to design, implement, and present an AI-enabled solution to an organizational challenge. Students integrate technical, leadership, and ethical considerations.",
     entrySkills: [
-      "Define an organizational problem or opportunity in measurable terms and justify why it is appropriate for an AI-enabled solution. (HAI 495A F)",
-      "Assess responsible-AI risks, including bias, privacy, security, transparency, and workforce impact, using the NIST AI Risk Management Framework. (HAI 495A F)",
-      "Formulate project goals, scope, deliverables, and success metrics that can be measured during the HAI 495B implementation. (HAI 495A F)",
-      "Design a project methodology, work breakdown structure, timeline, and resource plan for building or piloting the solution. (HAI 495A F)",
-      "Develop a governance and change management approach that addresses data privacy, human oversight, and adoption by affected employees. (HAI 495A F)"
+      "Define an organizational problem or opportunity in measurable terms and justify why it is appropriate for an AI-enabled solution. (BUS 495A F)",
+      "Assess responsible-AI risks, including bias, privacy, security, transparency, and workforce impact, using the NIST AI Risk Management Framework. (BUS 495A F)",
+      "Formulate project goals, scope, deliverables, and success metrics that can be measured during the BUS 495B implementation. (BUS 495A F)",
+      "Design a project methodology, work breakdown structure, timeline, and resource plan for building or piloting the solution. (BUS 495A F)",
+      "Develop a governance and change management approach that addresses data privacy, human oversight, and adoption by affected employees. (BUS 495A F)"
     ],
     slos: [
       {
@@ -3163,7 +3169,7 @@ window.BDP_COURSES = [
       "Construct a working solution or pilot using appropriate tools, such as low-code, no-code, and generative AI platforms, while protecting confidential and personal data.",
       "Test the solution for accuracy, reliability, usability, bias, and security, and document the results.",
       "Revise the solution through iterative cycles based on stakeholder feedback and test results.",
-      "Measure the solution's impact against baseline data and the success metrics defined in HAI 495A.",
+      "Measure the solution's impact against baseline data and the success metrics defined in BUS 495A.",
       "Evaluate the effectiveness, value, and limitations of the solution, including unintended consequences for employees and customers.",
       "Prepare governance documentation, including a risk register update, data handling procedures, human oversight roles, and a monitoring plan.",
       "Carry out change management and training activities that support adoption by affected users.",
@@ -3350,22 +3356,22 @@ window.BDP_COURSES = [
       ],
       critical: [
         "Design and build the approved AI-enabled solution or pilot, justifying tool, workflow, and human oversight choices against stakeholder needs and responsible-AI risks.",
-        "Evaluate the solution's impact by comparing post-implementation results with baseline data and the success metrics defined in HAI 495A, and interpret limitations in the evidence.",
+        "Evaluate the solution's impact by comparing post-implementation results with baseline data and the success metrics defined in BUS 495A, and interpret limitations in the evidence.",
         "Recommend whether the partner should scale, sustain, modify, or discontinue the solution, weighing costs, benefits, risks, and workforce impact.",
         "Defend the project's findings and recommendations in a public presentation to a professional panel of advisory board members and employer partners."
       ]
     },
     rigor: {
       buildsOn: [
-        "HAI 495A F AI Implementation Capstone I",
-        "HAI 300 F Foundations of Human-AI Collaboration",
-        "HAI 310 F Applied AI for Organizational Decision-Making",
-        "HAI 320 F Data Analytics and Visualization for Leaders",
-        "HAI 340 F Organizational Leadership in AI-Enabled Environments",
-        "HAI 350 F AI Strategy and Implementation",
-        "HAI 360 F Ethics, Governance, and Responsible AI",
-        "HAI 370 F Managing AI Projects and Cross-Functional Teams",
-        "HAI 380 F Human-AI Interaction and Experience Design",
+        "BUS 495A F AI Implementation Capstone I",
+        "BUS 300 F Foundations of Human-AI Collaboration",
+        "BUS 310 F Applied AI for Organizational Decision-Making",
+        "MATH 320 F Data Analytics and Visualization for Leaders",
+        "BUS 340 F Organizational Leadership in AI-Enabled Environments",
+        "BUS 350 F AI Strategy and Implementation",
+        "BUS 360 F Ethics, Governance, and Responsible AI",
+        "CIS 370 F Managing AI Projects and Cross-Functional Teams",
+        "BUS 380 F Human-AI Interaction and Experience Design",
         "BUS 371 F Advanced Organizational Behavior and Leadership in AI-Enabled Environments",
         "ENGL 301 F Technical Writing",
         "BUS 256 F Artificial Intelligence and Prompt Engineering for Business",
@@ -3373,7 +3379,7 @@ window.BDP_COURSES = [
         "BUS 255 F Introduction to Business and Data Analytics",
         "BUS 271 F Leadership and Business Ethics"
       ],
-      distinction: "Lower-division courses such as BUS 256 F and BUS 257 F teach students to use AI tools on assigned tasks, and BUS 255 F and BUS 271 F introduce analytics and leadership ethics. HAI 495B requires students to synthesize the entire HAI core in a real organization: they build and pilot a working solution (HAI 300, 380), measure its impact with data (HAI 310, 320), manage the project and cross-functional stakeholders (HAI 370), lead change and adoption (HAI 340, BUS 371), document governance (HAI 360), and justify strategic recommendations (HAI 350) in a 5,000 to 6,000 word report and a public defense before a professional panel. Students are accountable to a partner organization for actual results, not to a classroom exercise.",
+      distinction: "Lower-division courses such as BUS 256 F and BUS 257 F teach students to use AI tools on assigned tasks, and BUS 255 F and BUS 271 F introduce analytics and leadership ethics. BUS 495B requires students to synthesize the entire upper-division core in a real organization: they build and pilot a working solution (BUS 300, 380), measure its impact with data (BUS 310, 320), manage the project and cross-functional stakeholders (CIS 370), lead change and adoption (BUS 340, BUS 371), document governance (BUS 360), and justify strategic recommendations (BUS 350) in a 5,000 to 6,000 word report and a public defense before a professional panel. Students are accountable to a partner organization for actual results, not to a classroom exercise.",
       criticalThinking: "Demonstrated through writing (sprint reports, governance documentation, a 5,000 to 6,000 word final capstone report, and a leadership reflection) and oral communication (public presentation and live demonstration defended before a professional panel of advisory board members and employer partners).",
       research: "Students collect and analyze primary data on solution performance and user experience under human-subjects safeguards, including informed consent, anonymity, and institutional review where applicable, and connect their findings to peer-reviewed research and industry reports located through library databases.",
       ploAlignment: [

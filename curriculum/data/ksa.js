@@ -19,19 +19,19 @@ window.BDP_KSA = {
    "STAT C1000"
   ],
   "upper": [
-   "HAI 300",
-   "HAI 310",
-   "HAI 320",
-   "HAI 340",
-   "HAI 350",
-   "HAI 360",
-   "HAI 370",
-   "HAI 380",
+   "BUS 300",
+   "BUS 310",
+   "MATH 320",
+   "BUS 340",
+   "BUS 350",
+   "BUS 360",
+   "CIS 370",
+   "BUS 380",
    "BUS 371",
    "ENGL 301 F",
    "PHIL 361 F",
-   "HAI 495A",
-   "HAI 495B"
+   "BUS 495A",
+   "BUS 495B"
   ]
  },
  "items": [
@@ -42,7 +42,7 @@ window.BDP_KSA = {
    "map": {
     "BUS 256 F": "I",
     "CIS 258 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -52,8 +52,8 @@ window.BDP_KSA = {
    "map": {
     "STAT C1000": "I",
     "BUS 255 F": "I",
-    "HAI 310": "D",
-    "HAI 320": "D"
+    "BUS 310": "D",
+    "MATH 320": "D"
    }
   },
   {
@@ -62,8 +62,8 @@ window.BDP_KSA = {
    "text": "Accurate representation of data",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D",
-    "HAI 495B": "M"
+    "MATH 320": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -72,8 +72,8 @@ window.BDP_KSA = {
    "text": "Knowledge and understanding of Data/AI Governance",
    "map": {
     "BUS 108 F": "I",
-    "HAI 360": "D",
-    "HAI 495A": "M"
+    "BUS 360": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -82,8 +82,8 @@ window.BDP_KSA = {
    "text": "Knowledge and understanding of Data/AI Security",
    "map": {
     "BUS 108 F": "I",
-    "HAI 360": "D",
-    "HAI 495B": "M"
+    "BUS 360": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -92,8 +92,8 @@ window.BDP_KSA = {
    "text": "Knowledge and understanding of Data/AI Accountability",
    "map": {
     "BUS 271 F": "I",
-    "HAI 360": "D",
-    "HAI 495B": "M"
+    "BUS 360": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -101,8 +101,8 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Knowledge and understanding of Data/AI Resiliency",
    "map": {
-    "HAI 360": "D",
-    "HAI 495B": "M"
+    "BUS 360": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -110,10 +110,10 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Knowledge and understanding of Data/AI Transparency",
    "map": {
-    "HAI 300": "I",
-    "HAI 360": "D",
-    "HAI 380": "D",
-    "HAI 495B": "M"
+    "BUS 300": "I",
+    "BUS 360": "D",
+    "BUS 380": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -123,8 +123,8 @@ window.BDP_KSA = {
    "map": {
     "BUS 271 F": "I",
     "PHIL 361 F": "D",
-    "HAI 360": "D",
-    "HAI 495A": "M",
+    "BUS 360": "D",
+    "BUS 495A": "M",
     "BUS 371": "D"
    }
   },
@@ -134,7 +134,7 @@ window.BDP_KSA = {
    "text": "Knowledge of Data Dictionaries",
    "map": {
     "CIS 142 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -143,8 +143,8 @@ window.BDP_KSA = {
    "text": "Knowledge of Authoritative Data Sources",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D",
-    "HAI 495A": "M"
+    "MATH 320": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -153,10 +153,10 @@ window.BDP_KSA = {
    "text": "Understanding of data readiness assessment",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D",
-    "HAI 350": "D",
-    "HAI 370": "D",
-    "HAI 495A": "M"
+    "MATH 320": "D",
+    "BUS 350": "D",
+    "CIS 370": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -165,8 +165,8 @@ window.BDP_KSA = {
    "text": "Knowledge of Agent Frameworks",
    "map": {
     "BUS 257 F": "I",
-    "HAI 300": "D",
-    "HAI 380": "D"
+    "BUS 300": "D",
+    "BUS 380": "D"
    }
   },
   {
@@ -175,11 +175,11 @@ window.BDP_KSA = {
    "text": "Explain \"Human in the Loop\" supervision of AI models",
    "map": {
     "BUS 256 F": "I",
-    "HAI 300": "D",
-    "HAI 380": "D",
-    "HAI 495B": "M",
+    "BUS 300": "D",
+    "BUS 380": "D",
+    "BUS 495B": "M",
     "BUS 371": "D",
-    "HAI 340": "D"
+    "BUS 340": "D"
    }
   },
   {
@@ -188,7 +188,7 @@ window.BDP_KSA = {
    "text": "Compare Agentic AI vs. traditional automation",
    "map": {
     "BUS 257 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -196,7 +196,7 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Explain the purpose of Model Context Protocol",
    "map": {
-    "HAI 300": "I"
+    "BUS 300": "I"
    }
   },
   {
@@ -206,7 +206,7 @@ window.BDP_KSA = {
    "map": {
     "CIS 201 F": "I",
     "BUS 255 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -214,9 +214,9 @@ window.BDP_KSA = {
    "cat": "Data Management & Analytics",
    "text": "Knowledge of developing data strategy",
    "map": {
-    "HAI 320": "D",
-    "HAI 350": "D",
-    "HAI 495A": "M"
+    "MATH 320": "D",
+    "BUS 350": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -234,7 +234,7 @@ window.BDP_KSA = {
    "map": {
     "BUS 255 F": "I",
     "CIS 258 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -243,7 +243,7 @@ window.BDP_KSA = {
    "text": "Explain how types of data, data sources, and BIG Data are used for business analytics",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -252,7 +252,7 @@ window.BDP_KSA = {
    "text": "Differentiate between structured and unstructured data",
    "map": {
     "CIS 142 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -294,7 +294,7 @@ window.BDP_KSA = {
    "map": {
     "BUS 257 F": "I",
     "CIS 258 F": "I",
-    "HAI 380": "D"
+    "BUS 380": "D"
    }
   },
   {
@@ -303,7 +303,7 @@ window.BDP_KSA = {
    "text": "Knowledge of names and understanding of usefulness of the various machine learning models",
    "map": {
     "CIS 258 F": "I",
-    "HAI 310": "D"
+    "BUS 310": "D"
    }
   },
   {
@@ -312,7 +312,7 @@ window.BDP_KSA = {
    "text": "Knowledge of Supervised Learning Applications",
    "map": {
     "CIS 258 F": "I",
-    "HAI 310": "D"
+    "BUS 310": "D"
    }
   },
   {
@@ -330,7 +330,7 @@ window.BDP_KSA = {
    "map": {
     "STAT C1000": "I",
     "CIS 258 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -354,7 +354,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Bayesian Statistical Models",
    "map": {
-    "HAI 310": "I"
+    "BUS 310": "I"
    }
   },
   {
@@ -363,7 +363,7 @@ window.BDP_KSA = {
    "text": "Knowledge of Models in Production",
    "map": {
     "CIS 258 F": "I",
-    "HAI 370": "D"
+    "CIS 370": "D"
    }
   },
   {
@@ -371,8 +371,8 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Risk Modeling",
    "map": {
-    "HAI 310": "D",
-    "HAI 360": "D"
+    "BUS 310": "D",
+    "BUS 360": "D"
    }
   },
   {
@@ -380,7 +380,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Monte Carlo / Risk Analysis Simulation",
    "map": {
-    "HAI 310": "I"
+    "BUS 310": "I"
    }
   },
   {
@@ -389,9 +389,9 @@ window.BDP_KSA = {
    "text": "Knowledge of model evaluation and validation including training/validating/testing splits, cross-validating concepts, data leakage, metric selection, calibration basics and error analysis",
    "map": {
     "CIS 258 F": "I",
-    "HAI 300": "D",
-    "HAI 310": "D",
-    "HAI 495B": "M"
+    "BUS 300": "D",
+    "BUS 310": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -400,7 +400,7 @@ window.BDP_KSA = {
    "text": "Explain general principles of GenAI",
    "map": {
     "BUS 256 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -409,9 +409,9 @@ window.BDP_KSA = {
    "text": "Describe the different emerging trends in technology.",
    "map": {
     "BUS 108 F": "I",
-    "HAI 300": "D",
-    "HAI 350": "D",
-    "HAI 495A": "M",
+    "BUS 300": "D",
+    "BUS 350": "D",
+    "BUS 495A": "M",
     "BUS 371": "I"
    }
   },
@@ -427,8 +427,8 @@ window.BDP_KSA = {
    "text": "Knowledge of Automation in AI",
    "map": {
     "BUS 257 F": "I",
-    "HAI 300": "D",
-    "HAI 350": "D"
+    "BUS 300": "D",
+    "BUS 350": "D"
    }
   },
   {
@@ -438,8 +438,8 @@ window.BDP_KSA = {
    "map": {
     "BUS 256 F": "I",
     "BUS 257 F": "I",
-    "HAI 350": "D",
-    "HAI 495B": "M"
+    "BUS 350": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -448,10 +448,10 @@ window.BDP_KSA = {
    "text": "Knowledge of modern GenAI application patterns and safety including embeddings, retrieval/grounding, tool use, hallucination controls, prompt injection awareness, and data exfiltration risks",
    "map": {
     "BUS 256 F": "I",
-    "HAI 300": "D",
-    "HAI 360": "D",
-    "HAI 380": "D",
-    "HAI 495B": "M"
+    "BUS 300": "D",
+    "BUS 360": "D",
+    "BUS 380": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -460,7 +460,7 @@ window.BDP_KSA = {
    "text": "Explain Deepfakes including detection and watermarks",
    "map": {
     "BUS 108 F": "I",
-    "HAI 360": "D"
+    "BUS 360": "D"
    }
   },
   {
@@ -469,7 +469,7 @@ window.BDP_KSA = {
    "text": "Explain how multimodal GenAI functions",
    "map": {
     "BUS 257 F": "I",
-    "HAI 380": "D"
+    "BUS 380": "D"
    }
   },
   {
@@ -477,8 +477,8 @@ window.BDP_KSA = {
    "cat": "Human Factors, Ethics, & Business Applications",
    "text": "Knowledge of Human Factors and Human Computer Interaction",
    "map": {
-    "HAI 300": "D",
-    "HAI 380": "M",
+    "BUS 300": "D",
+    "BUS 380": "M",
     "BUS 371": "I"
    }
   },
@@ -487,8 +487,8 @@ window.BDP_KSA = {
    "cat": "Human Factors, Ethics, & Business Applications",
    "text": "Knowledge of Human Centered Design",
    "map": {
-    "HAI 300": "I",
-    "HAI 380": "M"
+    "BUS 300": "I",
+    "BUS 380": "M"
    }
   },
   {
@@ -497,7 +497,7 @@ window.BDP_KSA = {
    "text": "Awareness of Global Perspective on AI",
    "map": {
     "BUS 108 F": "I",
-    "HAI 360": "D"
+    "BUS 360": "D"
    }
   },
   {
@@ -505,9 +505,9 @@ window.BDP_KSA = {
    "cat": "Human Factors, Ethics, & Business Applications",
    "text": "Knowledge of an AI Maturity Model",
    "map": {
-    "HAI 340": "D",
-    "HAI 350": "D",
-    "HAI 495A": "M"
+    "BUS 340": "D",
+    "BUS 350": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -516,7 +516,7 @@ window.BDP_KSA = {
    "text": "Awareness of legal regulations/considerations",
    "map": {
     "BUS 108 F": "I",
-    "HAI 360": "M"
+    "BUS 360": "M"
    }
   },
   {
@@ -524,7 +524,7 @@ window.BDP_KSA = {
    "cat": "Human Factors, Ethics, & Business Applications",
    "text": "Knowledge of Applications and Precautions for Adversarial AI",
    "map": {
-    "HAI 360": "D"
+    "BUS 360": "D"
    }
   },
   {
@@ -532,7 +532,7 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Knowledge of Public and Private Cloud Platforms",
    "map": {
-    "HAI 350": "I"
+    "BUS 350": "I"
    }
   },
   {
@@ -540,8 +540,8 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Knowledge of System Diagrams and Systems Dynamics",
    "map": {
-    "HAI 300": "D",
-    "HAI 495A": "D"
+    "BUS 300": "D",
+    "BUS 495A": "D"
    }
   },
   {
@@ -549,8 +549,8 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Knowledge of project management, especially as it applies to deployment of models",
    "map": {
-    "HAI 370": "D",
-    "HAI 495B": "M"
+    "CIS 370": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -558,9 +558,9 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Understanding of product and process performance",
    "map": {
-    "HAI 350": "D",
-    "HAI 370": "D",
-    "HAI 495B": "M"
+    "BUS 350": "D",
+    "CIS 370": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -568,9 +568,9 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Knowledge of designing experiments",
    "map": {
-    "HAI 310": "I",
-    "HAI 380": "D",
-    "HAI 495B": "M"
+    "BUS 310": "I",
+    "BUS 380": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -579,9 +579,9 @@ window.BDP_KSA = {
    "text": "Knowledge of AI's impact on jobs",
    "map": {
     "BUS 108 F": "I",
-    "HAI 340": "D",
+    "BUS 340": "D",
     "BUS 371": "D",
-    "HAI 495B": "M"
+    "BUS 495B": "M"
    }
   },
   {
@@ -607,7 +607,7 @@ window.BDP_KSA = {
    "map": {
     "BUS 256 F": "I",
     "CIS 258 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -629,7 +629,7 @@ window.BDP_KSA = {
    "cat": "Computer Vision",
    "text": "Knowledge of computer vision/biometrics with legal/ethical constraints",
    "map": {
-    "HAI 360": "I"
+    "BUS 360": "I"
    }
   },
   {
@@ -637,8 +637,8 @@ window.BDP_KSA = {
    "cat": "Data Collection, Preparation, & Management",
    "text": "Identify and design a Data Collection Plan",
    "map": {
-    "HAI 320": "D",
-    "HAI 495A": "M"
+    "MATH 320": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -646,8 +646,8 @@ window.BDP_KSA = {
    "cat": "Data Collection, Preparation, & Management",
    "text": "Requirements Planning",
    "map": {
-    "HAI 370": "D",
-    "HAI 495A": "M"
+    "CIS 370": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -656,7 +656,7 @@ window.BDP_KSA = {
    "text": "Using various types of data and transformations",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -672,7 +672,7 @@ window.BDP_KSA = {
    "map": {
     "CIS 201 F": "I",
     "BUS 255 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -680,9 +680,9 @@ window.BDP_KSA = {
    "cat": "Data Collection, Preparation, & Management",
    "text": "Assessing data readiness",
    "map": {
-    "HAI 350": "D",
-    "HAI 370": "D",
-    "HAI 495A": "M"
+    "BUS 350": "D",
+    "CIS 370": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -691,7 +691,7 @@ window.BDP_KSA = {
    "text": "Using SQL databases",
    "map": {
     "CIS 142 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -726,7 +726,7 @@ window.BDP_KSA = {
    "text": "Apache/AWS/Azure/GCP Skill in using advanced methods to visualize data",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "M"
+    "MATH 320": "M"
    }
   },
   {
@@ -769,7 +769,7 @@ window.BDP_KSA = {
    "text": "Creating dashboards",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "M"
+    "MATH 320": "M"
    }
   },
   {
@@ -778,8 +778,8 @@ window.BDP_KSA = {
    "text": "Using several no-code or low-code platforms allowing AI model development through visual interfaces",
    "map": {
     "BUS 257 F": "I",
-    "HAI 380": "D",
-    "HAI 495B": "M"
+    "BUS 380": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -788,7 +788,7 @@ window.BDP_KSA = {
    "text": "Applying multimodal GenAI",
    "map": {
     "BUS 257 F": "I",
-    "HAI 380": "D"
+    "BUS 380": "D"
    }
   },
   {
@@ -797,7 +797,7 @@ window.BDP_KSA = {
    "text": "Understanding and applying linear regression",
    "map": {
     "STAT C1000": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -831,7 +831,7 @@ window.BDP_KSA = {
    "map": {
     "STAT C1000": "I",
     "BUS 255 F": "I",
-    "HAI 320": "D"
+    "MATH 320": "D"
    }
   },
   {
@@ -840,7 +840,7 @@ window.BDP_KSA = {
    "text": "Creating and using decision trees",
    "map": {
     "CIS 258 F": "I",
-    "HAI 310": "D"
+    "BUS 310": "D"
    }
   },
   {
@@ -925,8 +925,8 @@ window.BDP_KSA = {
    "text": "Defining use cases for problem-solving",
    "map": {
     "BUS 257 F": "I",
-    "HAI 350": "D",
-    "HAI 495A": "M"
+    "BUS 350": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -935,7 +935,7 @@ window.BDP_KSA = {
    "text": "Using ML algorithms and tools to analyze and predict business performance and provide insights for strategic business decisions",
    "map": {
     "CIS 258 F": "I",
-    "HAI 310": "D"
+    "BUS 310": "D"
    }
   },
   {
@@ -945,8 +945,8 @@ window.BDP_KSA = {
    "map": {
     "BUS 271 F": "I",
     "PHIL 361 F": "D",
-    "HAI 360": "D",
-    "HAI 495A": "M"
+    "BUS 360": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -955,9 +955,9 @@ window.BDP_KSA = {
    "text": "Evaluating AI use cases for a range of business scenarios",
    "map": {
     "BUS 257 F": "I",
-    "HAI 310": "D",
-    "HAI 350": "D",
-    "HAI 495A": "M"
+    "BUS 310": "D",
+    "BUS 350": "D",
+    "BUS 495A": "M"
    }
   },
   {
@@ -966,8 +966,8 @@ window.BDP_KSA = {
    "text": "Applying AI for a business solution",
    "map": {
     "BUS 257 F": "I",
-    "HAI 300": "D",
-    "HAI 495B": "M"
+    "BUS 300": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -976,8 +976,8 @@ window.BDP_KSA = {
    "text": "Visualization/communication for business impact",
    "map": {
     "BUS 255 F": "I",
-    "HAI 320": "D",
-    "HAI 495B": "M"
+    "MATH 320": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -986,11 +986,11 @@ window.BDP_KSA = {
    "text": "Storytelling with emphasis on articulating how things work and how to solve problems for a business",
    "map": {
     "ENGL 301 F": "D",
-    "HAI 320": "D",
-    "HAI 350": "D",
-    "HAI 495B": "M",
+    "MATH 320": "D",
+    "BUS 350": "D",
+    "BUS 495B": "M",
     "BUS 371": "D",
-    "HAI 340": "D"
+    "BUS 340": "D"
    }
   },
   {
@@ -999,7 +999,7 @@ window.BDP_KSA = {
    "text": "Using Business Process Automation (BPA)",
    "map": {
     "BUS 257 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -1007,9 +1007,9 @@ window.BDP_KSA = {
    "cat": "Business Applications & Strategy",
    "text": "End-to-end evaluation workflow including defining objectives and metrics, preparing splits, building baseline, running experiments, interpreting results, documenting findings, and recommending next steps",
    "map": {
-    "HAI 310": "D",
-    "HAI 380": "D",
-    "HAI 495B": "M"
+    "BUS 310": "D",
+    "BUS 380": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -1018,7 +1018,7 @@ window.BDP_KSA = {
    "text": "Prompt engineering",
    "map": {
     "BUS 256 F": "I",
-    "HAI 300": "D"
+    "BUS 300": "D"
    }
   },
   {
@@ -1027,9 +1027,9 @@ window.BDP_KSA = {
    "text": "Staying current and learning new concepts related to AI",
    "map": {
     "BUS 108 F": "I",
-    "HAI 300": "D",
-    "HAI 495B": "M",
-    "HAI 340": "D"
+    "BUS 300": "D",
+    "BUS 495B": "M",
+    "BUS 340": "D"
    }
   },
   {
@@ -1039,9 +1039,9 @@ window.BDP_KSA = {
    "map": {
     "BUS 271 F": "I",
     "BUS 371": "D",
-    "HAI 340": "D",
-    "HAI 370": "D",
-    "HAI 495B": "M"
+    "BUS 340": "D",
+    "CIS 370": "D",
+    "BUS 495B": "M"
    }
   },
   {
@@ -1050,7 +1050,7 @@ window.BDP_KSA = {
    "text": "Collaborative software workflow for applied AI (e.g. Git-based version control, reproducible environments, basic testing/validation checks, and packaging/sharing notebooks or scripts for team use)",
    "map": {
     "CIS 201 F": "I",
-    "HAI 370": "D"
+    "CIS 370": "D"
    }
   }
  ]
