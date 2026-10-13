@@ -3,6 +3,14 @@
   const COURSES = window.BDP_COURSES || [];
   const D = window.BDP_COURSE_DEFAULTS || {};
   const EXISTING = window.BDP_EXISTING || [];
+  /* Catalog link for an existing course: its own catalogUrl if set, otherwise a catalog search. */
+  const catUrl = (code) => {
+    const e = EXISTING.find((x) => x.code === code);
+    if (e && e.catalogUrl) return e.catalogUrl;
+    return `https://catalog.nocccd.edu/search/?caturl=%2Ffullerton-college&search=${encodeURIComponent(code).replace(/%20/g, "+")}`;
+  };
+  const existingTag = (code) =>
+    `<a class="existing-tag" href="${esc(catUrl(code))}" target="_blank" rel="noopener" aria-label="${esc(code)} is an existing course. See the Fullerton College catalog (opens in a new tab)">Existing · See catalog</a>`;
 
   const STATUS = {
     "not-started": "Not started",
@@ -491,7 +499,7 @@
       exTable.innerHTML = EXISTING.map((e) => {
         const q = encodeURIComponent(e.code).replace(/%20/g, "+");
         return `<tr>
-          <td><a href="https://catalog.nocccd.edu/search/?caturl=%2Ffullerton-college&amp;search=${q}" target="_blank" rel="noopener">${esc(e.code)}</a></td>
+          <td><a href="${esc(catUrl(e.code))}" target="_blank" rel="noopener">${esc(e.code)}</a></td>
           <td>${esc(e.title)}${e.note ? `<br><small>${esc(e.note)}</small>` : ""}${
             e.alts ? `<br><small>or ${e.alts.map((a) => esc(a.code)).join(", or ")}</small>` : ""
           }</td>
@@ -516,10 +524,10 @@
     blocks.forEach(([name, units, note]) => {
       rows.push(`<tr class="block-row"><th scope="rowgroup" colspan="3">${esc(name)} (${units} units${note ? `; ${esc(note)}` : ""})</th></tr>`);
       EXISTING.filter((e) => e.block === name).forEach((e) => {
-        rows.push(`<tr><td>${esc(e.code)}</td><td>${esc(e.title)}</td><td>${esc(e.units)}</td></tr>`);
+        rows.push(`<tr><td><a href="${esc(catUrl(e.code))}" target="_blank" rel="noopener">${esc(e.code)}</a></td><td>${esc(e.title)} ${existingTag(e.code)}</td><td>${esc(e.units)}</td></tr>`);
         (e.alts || []).forEach((a) => {
           rows.push(`<tr class="or-row"><td colspan="3">or</td></tr>`);
-          rows.push(`<tr><td>${esc(a.code)}</td><td>${esc(a.title)}</td><td>${esc(a.units)}</td></tr>`);
+          rows.push(`<tr><td><a href="${esc(catUrl(a.code))}" target="_blank" rel="noopener">${esc(a.code)}</a></td><td>${esc(a.title)} ${existingTag(a.code)}</td><td>${esc(a.units)}</td></tr>`);
         });
       });
       COURSES.filter((c) => c.block === name).forEach((c) =>
@@ -544,8 +552,9 @@
     const id = code.toLowerCase().replace(/\s+/g, "-");
     if (COURSES.some((c) => c.id === id)) return `<a href="course.html?id=${esc(id)}">${esc(code)} F</a>`;
     if (/^Cal-GETC|elective/i.test(code)) return esc(code);
-    const q = encodeURIComponent(code).replace(/%20/g, "+");
-    return `<a href="https://catalog.nocccd.edu/search/?caturl=%2Ffullerton-college&amp;search=${q}" target="_blank" rel="noopener">${esc(code)}</a>`;
+    const ex = EXISTING.find((e) => e.code === code);
+    const tag = ex && ex.block === "Upper Division General Education" ? ` ${existingTag(code)}` : "";
+    return `<a href="${esc(catUrl(code))}" target="_blank" rel="noopener">${esc(code)}</a>${tag}`;
   }
   function renderPathway(root) {
     const P = window.BDP_PATHWAY;

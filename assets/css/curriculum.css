@@ -329,6 +329,23 @@ mark.confirm {
   font-weight: 800;
 }
 
+.existing-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0 0.4rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.existing-tag:hover,
+.existing-tag:focus-visible {
+  text-decoration: underline;
+}
+
 .curr-section {
   margin-top: 2.5rem;
 }
