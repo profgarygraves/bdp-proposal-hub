@@ -30,6 +30,7 @@ window.BDP_KSA = {
    "BUS 371",
    "ENGL 301 F",
    "PHIL 361 F",
+   "MATH 321",
    "BUS 495A",
    "BUS 495B"
   ]
@@ -50,6 +51,7 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Principles of data literacy",
    "map": {
+    "MATH 321": "D",
     "STAT C1000": "I",
     "BUS 255 F": "I",
     "BUS 310": "D",
@@ -61,6 +63,7 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Accurate representation of data",
    "map": {
+    "MATH 321": "D",
     "BUS 255 F": "I",
     "MATH 320": "D",
     "BUS 495B": "M"
@@ -121,6 +124,7 @@ window.BDP_KSA = {
    "cat": "Foundations of AI & Data",
    "text": "Knowledge and understanding of Data/AI Impartiality",
    "map": {
+    "MATH 321": "D",
     "BUS 271 F": "I",
     "PHIL 361 F": "D",
     "BUS 360": "D",
@@ -268,6 +272,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Awareness of Numerical Optimization Techniques",
    "map": {
+    "MATH 321": "I",
     "CIS 258 F": "I"
    }
   },
@@ -328,6 +333,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of multiple linear regression",
    "map": {
+    "MATH 321": "D",
     "STAT C1000": "I",
     "CIS 258 F": "I",
     "MATH 320": "D"
@@ -354,6 +360,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Bayesian Statistical Models",
    "map": {
+    "MATH 321": "D",
     "BUS 310": "I"
    }
   },
@@ -371,6 +378,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Risk Modeling",
    "map": {
+    "MATH 321": "D",
     "BUS 310": "D",
     "BUS 360": "D"
    }
@@ -380,6 +388,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of Monte Carlo / Risk Analysis Simulation",
    "map": {
+    "MATH 321": "I",
     "BUS 310": "I"
    }
   },
@@ -388,6 +397,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning and Deep Learning",
    "text": "Knowledge of model evaluation and validation including training/validating/testing splits, cross-validating concepts, data leakage, metric selection, calibration basics and error analysis",
    "map": {
+    "MATH 321": "D",
     "CIS 258 F": "I",
     "BUS 300": "D",
     "BUS 310": "D",
@@ -568,6 +578,7 @@ window.BDP_KSA = {
    "cat": "Practical Tools, Applications, & Business Use Cases",
    "text": "Knowledge of designing experiments",
    "map": {
+    "MATH 321": "I",
     "BUS 310": "I",
     "BUS 380": "D",
     "BUS 495B": "M"
@@ -796,6 +807,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning & Statistical Modeling",
    "text": "Understanding and applying linear regression",
    "map": {
+    "MATH 321": "D",
     "STAT C1000": "I",
     "MATH 320": "D"
    }
@@ -829,6 +841,7 @@ window.BDP_KSA = {
    "cat": "Machine Learning & Statistical Modeling",
    "text": "Understanding statistical summaries",
    "map": {
+    "MATH 321": "D",
     "STAT C1000": "I",
     "BUS 255 F": "I",
     "MATH 320": "D"
@@ -1007,6 +1020,7 @@ window.BDP_KSA = {
    "cat": "Business Applications & Strategy",
    "text": "End-to-end evaluation workflow including defining objectives and metrics, preparing splits, building baseline, running experiments, interpreting results, documenting findings, and recommending next steps",
    "map": {
+    "MATH 321": "I",
     "BUS 310": "D",
     "BUS 380": "D",
     "BUS 495B": "M"

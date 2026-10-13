@@ -416,14 +416,14 @@
           ["Preparation Hours", h.prep],
           ["Total Course Hours", h.total],
           ["Course Transfer Code", D.transferCode],
-          ["Course Classification Code", D.classification],
+          ["Course Classification Code", c.classification || D.classification],
           ["Budget Code", D.budgetCode],
           ["Special Funding", D.specialFunding],
           ["TOP Code", mdb.top || D.top],
-          ["CIP Code", D.cip],
+          ["CIP Code", c.cip || D.cip],
           ["Stand Alone Course", D.standAlone],
           ["SOC Code", mdb.soc || D.soc],
-          ["SAM Code", D.sam],
+          ["SAM Code", c.sam || D.sam],
           ["State Discipline (FSA) Code", mdb.fsa || D.fsa],
           ["State Control #", hd.stateControl],
           ["C-ID Descriptor", "Not applicable"],
@@ -507,14 +507,14 @@
     const blocks = [
       ["Lower Division Required", 15],
       ["Restricted Lower Division Electives", 13],
-      ["Upper Division Core", 24],
-      ["Upper Division Breadth", 10],
+      ["Upper Division Core", 28],
+      ["Upper Division General Education", 9],
       ["Capstone", 6],
-      ["Restricted Electives", 18],
+      ["Restricted Electives", 15, "choose five courses"],
     ];
     const rows = [];
-    blocks.forEach(([name, units]) => {
-      rows.push(`<tr class="block-row"><th scope="rowgroup" colspan="3">${esc(name)} (${units} units)</th></tr>`);
+    blocks.forEach(([name, units, note]) => {
+      rows.push(`<tr class="block-row"><th scope="rowgroup" colspan="3">${esc(name)} (${units} units${note ? `; ${esc(note)}` : ""})</th></tr>`);
       EXISTING.filter((e) => e.block === name).forEach((e) => {
         rows.push(`<tr><td>${esc(e.code)}</td><td>${esc(e.title)}</td><td>${esc(e.units)}</td></tr>`);
         (e.alts || []).forEach((a) => {

@@ -2494,10 +2494,10 @@ window.BDP_COURSES = [
     number: "371",
     title: "Advanced Organizational Behavior and Leadership in AI-Enabled Environments",
     units: 4,
-    block: "Upper Division Breadth",
+    block: "Upper Division Core",
     year: "Year 4",
     status: "in-review",
-    updated: "2026-10-09",
+    updated: "2026-10-13",
     header: {
       ccApproved: "",
       dcccApproved: "",
@@ -2790,6 +2790,314 @@ window.BDP_COURSES = [
       fsa: "A35 - Business, B90 - Management"
     },
     sampleEssay: "An organization introduced AI tools that doubled productivity on some teams, while other teams report lower morale and resistance. Analyze these different outcomes using organizational behavior theories of motivation, trust, and team dynamics, and recommend a leadership approach that would improve results across the organization. Support your recommendation with evidence from course readings."
+  },
+  {
+    id: "math-321",
+    prefix: "MATH",
+    division: "FC Mathematics & Computer Science [CONFIRM exact division name]",
+    department: "Mathematics",
+    divisionCode: "[CONFIRM Math & Computer Science division code]",
+    departmentCode: "[CONFIRM Mathematics department code]",
+    number: "321",
+    title: "Quantitative Reasoning in the Age of AI",
+    units: 3,
+    block: "Upper Division General Education",
+    year: "Year 3",
+    status: "in-review",
+    updated: "2026-10-13",
+    reviewNotes: "New upper-division general education course in mathematical concepts and quantitative reasoning (computation), added 2026-10-13 with the support of the Mathematics department. Together with ENGL 301 F and PHIL 361 F it completes the 9 units of upper-division general education required for California community college baccalaureate degrees. Confirm the GE designation with the Articulation Officer.",
+    header: {
+      ccApproved: "",
+      dcccApproved: "",
+      boardApproved: "",
+      stateApproved: "",
+      effectiveTerm: "",
+      stateControl: "",
+      cid: ""
+    },
+    proposal: {
+      startSemester: "Fall",
+      honors: "No",
+      justification: "This is an upper-division general education course in mathematical concepts and quantitative reasoning, housed in Mathematics, a discipline outside the major. With ENGL 301 F (written communication) and PHIL 361 F, it completes the 9 units of upper-division general education from at least two disciplines outside the major that Title 5 and the Program and Course Approval Handbook require for community college baccalaureate degrees, and it supplies the required emphasis on computation. It is open to students in any Fullerton College baccalaureate program."
+    },
+    description: "This course develops the quantitative reasoning that professionals and citizens need to evaluate numerical claims in a world shaped by artificial intelligence. Students apply proportional reasoning, linear and exponential models, probability, and statistical inference to real decisions; analyze how AI systems use data to make predictions and how their errors are measured; and verify quantitative claims made by people and by AI tools. Emphasis is on modeling, estimation, verification, and clear written explanation of quantitative arguments.",
+    prerequisite: "Admission into a Fullerton College baccalaureate degree program upon completion of all required lower division courses.",
+    entrySkills: [
+      "Admission into a Fullerton College baccalaureate degree program upon completion of all required lower division courses."
+    ],
+    slos: [
+      {
+        outcome: "Construct and evaluate quantitative models, including proportional, linear, and exponential models, to analyze real-world situations and decisions.",
+        assessment: "Exam"
+      },
+      {
+        outcome: "Apply probability and statistical reasoning to evaluate the accuracy, error rates, and fairness of AI-generated predictions and quantitative claims.",
+        assessment: "Quantitative Audit Project"
+      },
+      {
+        outcome: "Develop written quantitative arguments that state assumptions, show calculations, and communicate uncertainty and limitations to non-specialist audiences.",
+        assessment: "Quantitative Argument Paper"
+      }
+    ],
+    deSamples: [
+      {
+        objective: "Construct and evaluate quantitative models, including proportional, linear, and exponential models, to analyze real-world situations and decisions.",
+        assignment: "Weekly spreadsheet modeling problem sets submitted in Canvas, with a recorded Canvas Studio explanation of one model's assumptions, followed by a Canvas exam with applied modeling problems.",
+        evaluation: "Problem set rubric, written instructor feedback in Canvas SpeedGrader, and Canvas exam."
+      },
+      {
+        objective: "Apply probability and statistical reasoning to evaluate the accuracy, error rates, and fairness of AI-generated predictions and quantitative claims.",
+        assignment: "Quantitative audit project in which each student analyzes a published AI screening or prediction tool using a confusion matrix, base rates, and Bayes' theorem, and shares draft findings in a Canvas discussion for peer review.",
+        evaluation: "Project rubric with written instructor feedback in Canvas SpeedGrader."
+      },
+      {
+        objective: "Develop written quantitative arguments that state assumptions, show calculations, and communicate uncertainty and limitations to non-specialist audiences.",
+        assignment: "Quantitative argument paper that evaluates a numerical claim from the news, a policy debate, or a generative AI tool, with a verification log showing how every calculation was checked; draft reviewed by peers in Canvas.",
+        evaluation: "Rubric-scored paper with written instructor feedback in Canvas SpeedGrader."
+      }
+    ],
+    objectives: [
+      "Solve problems involving ratios, rates, percentages, percent change, and percentage points, including absolute and relative risk.",
+      "Estimate quantities using unit analysis, scientific notation, and order-of-magnitude reasoning, and judge whether a reported figure is plausible.",
+      "Construct linear and exponential models from data and use them to predict outcomes, including compound growth, doubling time, and the growth of computing power and data.",
+      "Interpret logarithmic scales and compare quantities that differ by orders of magnitude.",
+      "Calculate probabilities using counting principles, the addition and multiplication rules, and conditional probability.",
+      "Apply Bayes' theorem and base rates to interpret medical screening results and AI classification results.",
+      "Calculate expected value and use it, along with simple simulation, to compare decisions under uncertainty.",
+      "Interpret sampling methods, margins of error, confidence intervals, and statistical significance in published studies and polls.",
+      "Distinguish correlation from causation and identify confounding, selection bias, and regression to the mean.",
+      "Explain in quantitative terms how machine learning models learn from data, including fitting, error, training and test data, and overfitting.",
+      "Evaluate classifier performance using confusion matrices, accuracy, precision, recall, false positive and false negative rates, and calibration.",
+      "Compare quantitative definitions of algorithmic fairness and explain why they cannot all be satisfied at the same time.",
+      "Assess numerical answers and calculations produced by generative AI tools by reproducing them with independent methods.",
+      "Develop written quantitative arguments that state assumptions, show calculations, and communicate uncertainty to non-specialist audiences."
+    ],
+    content: [
+      {
+        topic: "Quantitative reasoning in the age of AI",
+        items: [
+          "Numbers as evidence in public, professional, and personal decisions",
+          "How AI systems produce, summarize, and sometimes invent numbers",
+          "Habits of a quantitatively literate reader: estimate, check, question",
+          "Course tools: spreadsheets and district-approved generative AI tools"
+        ]
+      },
+      {
+        topic: "Ratios, rates, percentages, and risk",
+        items: [
+          "Ratios, rates, and unit rates",
+          "Percent change versus percentage points",
+          "Absolute and relative risk",
+          "Common errors in reporting percentages"
+        ]
+      },
+      {
+        topic: "Estimation, units, and plausibility",
+        items: [
+          "Unit analysis and conversions",
+          "Scientific notation and significant figures",
+          "Order-of-magnitude (Fermi) estimation",
+          "Checking whether a reported figure is plausible"
+        ]
+      },
+      {
+        topic: "Linear models and rates of change",
+        items: [
+          "Slope as a rate of change",
+          "Building linear models from data in a spreadsheet",
+          "Interpolation, extrapolation, and their limits",
+          "Fitting a line by minimizing error: an introduction to how models learn"
+        ]
+      },
+      {
+        topic: "Exponential growth and decay",
+        items: [
+          "Growth factors, compound growth, and continuous compounding",
+          "Doubling time and half-life",
+          "Growth in computing power, AI training data, and energy use",
+          "Distinguishing linear from exponential trends"
+        ]
+      },
+      {
+        topic: "Logarithms and orders of magnitude",
+        items: [
+          "Logarithms as exponents",
+          "Logarithmic scales in charts and measurement",
+          "Comparing quantities that differ by orders of magnitude",
+          "Reading log-scale charts of technology trends"
+        ]
+      },
+      {
+        topic: "Probability foundations",
+        items: [
+          "Sample spaces, events, and counting principles",
+          "Addition and multiplication rules",
+          "Independence and dependence",
+          "Probability as long-run frequency and as degree of belief"
+        ]
+      },
+      {
+        topic: "Conditional probability and Bayes' theorem",
+        items: [
+          "Two-way tables and conditional probability",
+          "Base rates and the base rate fallacy",
+          "Bayes' theorem with natural frequencies",
+          "Medical screening and AI detection tools as worked examples"
+        ]
+      },
+      {
+        topic: "Expected value and decisions under uncertainty",
+        items: [
+          "Random variables and expected value",
+          "Comparing options with different risks and payoffs",
+          "Simulation of uncertain outcomes in a spreadsheet",
+          "Thresholds and the costs of different errors"
+        ]
+      },
+      {
+        topic: "Sampling and statistical inference",
+        items: [
+          "Populations, samples, and sampling methods",
+          "Margin of error and confidence intervals",
+          "Hypothesis tests, p-values, and statistical significance",
+          "Polls, surveys, and online data as evidence"
+        ]
+      },
+      {
+        topic: "Correlation, causation, and study design",
+        items: [
+          "Correlation coefficients and scatterplots",
+          "Observational studies versus randomized experiments",
+          "Confounding, selection bias, and regression to the mean",
+          "Evaluating claims that an AI tool caused an outcome"
+        ]
+      },
+      {
+        topic: "How machine learning models learn from data",
+        items: [
+          "Models as functions fitted to data",
+          "Error, loss, and optimization in plain terms",
+          "Training, validation, and test data",
+          "Overfitting, underfitting, and generalization"
+        ]
+      },
+      {
+        topic: "Measuring the performance of AI systems",
+        items: [
+          "Confusion matrices",
+          "Accuracy, precision, recall, and false positive and false negative rates",
+          "Probability scores, thresholds, and calibration",
+          "Benchmarks and what they do and do not show"
+        ]
+      },
+      {
+        topic: "Quantitative fairness and the costs of error",
+        items: [
+          "Group-level error rates",
+          "Demographic parity, equalized odds, and calibration across groups",
+          "Why fairness definitions conflict when base rates differ",
+          "Communicating trade-offs to decision-makers"
+        ]
+      },
+      {
+        topic: "Verifying AI-generated numbers",
+        items: [
+          "Arithmetic and reasoning errors in generative AI output",
+          "Fabricated statistics and sources",
+          "Reproducing calculations independently in a spreadsheet",
+          "Documenting verification in a log"
+        ]
+      },
+      {
+        topic: "Communicating quantitative arguments",
+        items: [
+          "Structure of a quantitative argument: claim, evidence, assumptions, uncertainty",
+          "Explaining numbers to non-specialist audiences",
+          "Honest presentation of uncertainty and limitations",
+          "Peer review and revision of quantitative writing"
+        ]
+      }
+    ],
+    methods: [
+      "Course type: scheduled lecture hours",
+      "Lecture",
+      "Discussion",
+      "Facilitates group activities",
+      "Individualized feedback on student work",
+      "Individualized instruction",
+      "Show instructional videos"
+    ],
+    evaluation: [
+      "Class Participation",
+      "Class Work",
+      "Exams/Tests",
+      "Homework",
+      "Papers",
+      "Problem Solving Exercises",
+      "Projects",
+      "Quizzes"
+    ],
+    textbooks: {
+      recommended: [
+        "Kirk, Donna, et al. Contemporary Mathematics, 1st ed. Houston, TX: OpenStax, 2023. Open educational resource (free). Recommended",
+        "Spiegelhalter, David. The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk and Luck, 1st ed. New York: W. W. Norton, 2025. Recommended",
+        "Narayanan, Arvind, and Sayash Kapoor. AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, 1st ed. Princeton, NJ: Princeton University Press, 2024. Recommended"
+      ],
+      supplemental: [
+        "Ault, Shaun V., Soohyun Nam Liao, and Larry Musolino. Principles of Data Science, 1st ed. Houston, TX: OpenStax, 2025. Open educational resource (free).",
+        "Free spreadsheet software (Google Sheets or Microsoft Excel) and district-approved generative AI tools.",
+        "Current news articles, polls, public datasets, and AI model reports selected for analysis."
+      ]
+    },
+    assignments: {
+      writing: [
+        "Read assigned chapters and articles to prepare for weekly discussions of quantitative claims in the news and in AI products.",
+        "Complete weekly problem sets outside of class using spreadsheets to build models, calculate probabilities, and check results.",
+        "Write a quantitative argument paper that evaluates a numerical claim, states its assumptions, shows the calculations, and explains the uncertainty to a non-specialist reader.",
+        "Keep a verification log that records each use of a generative AI tool for a calculation and how the result was checked independently."
+      ],
+      critical: [
+        "Evaluate a news report, advertisement, or AI-generated summary that makes a numerical claim, reproduce the calculation, and judge whether the claim is supported.",
+        "Analyze the results of an AI screening tool using a confusion matrix and Bayes' theorem, and recommend whether an organization should rely on it given base rates and the costs of each type of error.",
+        "Construct an exponential model of a real growth trend, such as the cost of computing or the size of AI training datasets, predict when it will reach a stated threshold, and justify the model's assumptions.",
+        "Compare two fairness measures for the same AI classifier and defend a recommendation for which measure an organization should use."
+      ]
+    },
+    rigor: {
+      buildsOn: [
+        "STAT C1000 Introduction to Statistics (Cal-GETC Area 2, Mathematical Concepts and Quantitative Reasoning)",
+        "BUS 255 F Introduction to Business and Data Analytics",
+        "CIS 258 F Applied AI: Machine Learning, Deep Learning and NLP"
+      ],
+      distinction: "STAT C1000 introduces descriptive statistics, probability, and inference through standard procedures applied to well-defined problems. MATH 321 requires students to choose and build their own models for open-ended situations, connect probability and inference to the way AI systems are trained and evaluated, reason about conflicting quantitative definitions such as fairness measures, independently verify numerical claims from people and AI tools, and present the results in extended written arguments. Unlike MATH 320, a major course centered on analytics and dashboard tools for organizational decisions, MATH 321 is a general education course centered on mathematical reasoning that applies across disciplines and civic life.",
+      criticalThinking: "Demonstrated primarily through computation (modeling, probability, statistical inference, and verification of AI outputs), which meets the upper-division general education emphasis on computation, and through written communication (quantitative argument paper and verification log).",
+      research: "Students locate and evaluate original sources for numerical claims, including published studies, government statistics, polls, and AI model documentation, through library databases and public data portals, and compare them with secondary reports and AI-generated summaries.",
+      ploAlignment: [
+        "SLO 1 supports PLO 4 (Develop and communicate AI strategy)",
+        "SLO 2 supports PLO 3 (Govern responsible AI) and PLO 1 (Implement AI-enabled solutions)",
+        "SLO 3 supports PLO 4 (Develop and communicate AI strategy)",
+        "Also meets the upper-division general education requirement in mathematical concepts and quantitative reasoning (computation) from a discipline outside the major."
+      ],
+      enrollment: "Enrollment limited to students admitted to a Fullerton College baccalaureate degree program.",
+      facultyQualifications: "Master's degree in mathematics or applied mathematics, or a bachelor's degree in either of the above and a master's degree in statistics, physics, or mathematics education, or the equivalent, under the minimum qualifications for upper-division baccalaureate courses (Title 5 § 53410)."
+    },
+    geTransfer: [
+      "CSU Transfer Course: Yes",
+      "Fullerton College upper-division general education (baccalaureate degrees): Mathematical Concepts and Quantitative Reasoning, emphasis on computation [CONFIRM designation with Articulation]",
+      "Open to students in any Fullerton College baccalaureate degree program"
+    ],
+    de: Object.assign({}, window.BDP_COURSE_DEFAULTS.de, {
+      nonCanvas: "Optional live problem-solving sessions and virtual office hours are held through Zoom and recorded in Canvas Studio for students who cannot attend."
+    }),
+    sam: "E - Non-Occupational [CONFIRM]",
+    classification: "Y - Credit Course [CONFIRM]",
+    cip: "27.0101 - Mathematics, General [CONFIRM]",
+    masterDb: {
+      top: "1701.00 - Mathematics, General [CONFIRM]",
+      soc: "Not applicable (general education course)",
+      fsa: "Mathematics [CONFIRM FSA code]"
+    },
+    sampleEssay: "An AI hiring tool flags 90 percent of the applicants who later succeed on the job, and its vendor reports that it is 95 percent accurate. Only 5 percent of applicants are strong fits for the role. Explain, with calculations, what fraction of flagged applicants are likely to be strong fits, why accuracy alone is misleading here, and what additional numbers an employer should request before relying on the tool."
   },
   {
     id: "bus-495a",
@@ -3425,8 +3733,8 @@ window.BDP_EXISTING = [
       { code: "SOSC 120 F", title: "Introduction to Probability and Statistics", units: 4 },
     ],
   },
-  { block: "Upper Division Breadth", code: "ENGL 301 F", title: "Technical Writing", units: 3, note: "Approved with the Drone and Autonomous Systems BS" },
-  { block: "Upper Division Breadth", code: "PHIL 361 F", title: "Technology and Ethics", units: 3, note: "Approved with the Drone and Autonomous Systems BS" },
+  { block: "Upper Division General Education", code: "ENGL 301 F", title: "Technical Writing", units: 3, note: "Approved with the Drone and Autonomous Systems BS" },
+  { block: "Upper Division General Education", code: "PHIL 361 F", title: "Technology and Ethics", units: 3, note: "Approved with the Drone and Autonomous Systems BS" },
   { block: "Restricted Electives", code: "MKT 256 F", title: "Artificial Intelligence in Marketing", units: 3 },
   { block: "Restricted Electives", code: "CIS 210 F", title: "Advanced Python Programming", units: 3 },
   { block: "Restricted Electives", code: "CIS 235 F", title: "Introduction to Cloud Computing", units: 3 },

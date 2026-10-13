@@ -83,7 +83,7 @@ window.BDP_PATHWAY = {
         { options: ["BUS 360"], title: "Ethics, Governance, and Responsible AI", tag: "Upper Division", units: 3 },
         { options: ["CIS 370"], title: "Managing AI Projects and Cross-Functional Teams", tag: "Upper Division", units: 3, note: "Prerequisite for BUS 495A." },
         { options: ["BUS 380"], title: "Human-AI Interaction and Experience Design", tag: "Upper Division", units: 3 },
-        { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
+        { options: ["MATH 321"], title: "Quantitative Reasoning in the Age of AI", tag: "Upper Division", units: 3, note: "Upper-division general education (quantitative reasoning)." }
       ],
       milestones: [
         { title: "Secure a capstone partner", text: "Identify an employer, nonprofit, campus department, or your own workplace to host the capstone project." },
@@ -93,7 +93,7 @@ window.BDP_PATHWAY = {
       name: "Year 4 · Fall",
       courses: [
         { options: ["BUS 495A"], title: "AI Implementation Capstone I", tag: "Capstone", units: 3 },
-        { options: ["BUS 371"], title: "Advanced Organizational Behavior and Leadership in AI-Enabled Environments", tag: "Upper Division", units: 4 },
+        { options: ["BUS 371"], title: "Advanced Organizational Behavior and Leadership in AI-Enabled Environments", tag: "Upper Division", units: 4, note: "Upper-division core." },
         { options: ["ENGL 301 F"], title: "Technical Writing", tag: "Upper Division", units: 3, note: "Upper-division general education." },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
         { options: ["MKT 256 F", "CIS 210 F", "CIS 235 F", "CYBR 256 F", "BUS 180 F", "CISG 105 F"], title: "Restricted elective", tag: "Elective", units: 3 },
